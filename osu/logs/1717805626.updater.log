@@ -1,6 +1,0 @@
-----------------------------------------------------------
-updater Log for Varof (LogLevel: Verbose)
-Running osu 2024.521.2.0 on .NET 8.0.5
-Environment: Windows (Microsoft Windows NT 10.0.22631.0), 8 cores 
-----------------------------------------------------------
-2024-06-08 00:13:48 [verbose]: UpdateManager: Using existing staging user ID: cd4635ee-d6a5-520a-b3ce-defd81a087a8
