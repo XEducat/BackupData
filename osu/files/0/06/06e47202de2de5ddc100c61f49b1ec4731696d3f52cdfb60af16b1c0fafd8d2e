@@ -1,0 +1,484 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"SB\titlecard.jpg",320,240
+ F,0,17356,,1
+ F,0,25312,,0
+ F,0,35920,,1
+ S,0,35920,,0.445
+ F,0,45036,45202,1,0
+ F,0,100892,,1
+ F,0,110008,110174,1,0
+ F,0,168517,,1
+ F,0,177633,177798,1,0
+ F,0,217577,,1
+ F,0,228019,228185,1,0
+Sprite,Background,BottomCentre,"SB\difficulty.png",320,260
+ F,0,17356,,1
+ F,0,18682,,0
+ S,0,25312,,0.5
+Sprite,Background,BottomCentre,"SB\storyboard.png",320,260
+ F,0,18682,,1
+ F,0,20008,,0
+ S,0,25312,,0.5
+Sprite,Background,TopCentre,"SB\noffy.png",320,270
+ F,0,18682,,1
+ F,0,20008,,0
+ S,0,25312,,0.5
+Sprite,Background,BottomCentre,"SB\illustration.png",320,260
+ F,0,20008,,1
+ F,0,21334,,0
+ S,0,25312,,0.5
+Sprite,Background,TopCentre,"SB\maxgonta.png",320,270
+ F,0,20008,,1
+ F,0,21334,,0
+ S,0,25312,,0.5
+Sprite,Background,BottomCentre,"SB\lyrics.png",320,260
+ F,0,21334,,1
+ F,0,22660,,0
+ S,0,25312,,0.5
+Sprite,Background,TopCentre,"SB\sakurai.png",320,270
+ F,0,21334,,1
+ F,0,22660,,0
+ S,0,25312,,0.5
+Sprite,Background,BottomCentre,"SB\title.png",320,260
+ F,0,22660,,1
+ F,0,25312,,0
+ S,0,25312,,0.5
+Sprite,Background,TopCentre,"SB\omoi.png",320,270
+ F,0,22660,,1
+ F,0,25312,,0
+ S,0,25312,,0.5
+Sprite,Background,Centre,"SB\1.png",320,0
+ L,25312,1
+  S,0,0,10000,0.42,0.44
+  S,0,10000,20000,0.44,0.42
+ L,25312,1
+  MY,5,0,15000,240,260
+  MY,5,15000,20000,260,240
+ L,25312,2
+  R,17,0,2000,0,0.01
+  R,17,2000,4000,0.01,0
+ F,0,25312,,1
+ S,0,25312,,0.42
+ F,0,34594,35920,1,0
+Sprite,Background,Centre,"mysterious.jpg",320,0
+ L,78351,1
+  S,0,0,10000,0.39,0.41
+  S,0,10000,20000,0.41,0.39
+ L,78351,1
+  MY,5,0,15000,240,250
+  MY,5,15000,20000,250,240
+ L,78351,5
+  R,17,0,4000,0,0.01
+  R,17,4000,8000,0.01,0
+ L,145975,5
+  R,17,0,4000,0,0.01
+  R,17,4000,8000,0.01,0
+ L,145975,1
+  S,0,0,10000,0.39,0.41
+  S,0,10000,20000,0.41,0.39
+ L,145975,1
+  MY,5,0,15000,240,250
+  MY,5,15000,20000,250,240
+ S,0,78351,,0.39
+ F,0,78351,78517,0,1
+ F,0,88959,,1
+ F,0,99566,,0
+ F,0,145975,146141,0,1
+ F,0,167191,,0
+Sprite,Background,Centre,"SB\15.jpg",0,0
+ F,0,46528,,1
+ S,0,46528,,0.87
+ M,0,46528,78351,320,-100,320,600
+ F,0,51832,52163,1,0
+ F,0,57136,57467,0,1
+ F,0,77688,78351,1,0
+Sprite,Background,Centre,"SB\10.jpg",320,0
+ S,0,111500,,0.59
+ F,0,111500,111666,0,1
+ MY,0,111500,144484,-110,600
+ F,0,144484,,0
+Sprite,Background,Centre,"bg2.jpg",0,0
+ L,195036,1
+  S,0,0,10000,0.62,0.64
+  S,0,10000,20000,0.64,0.62
+ L,195036,1
+  MX,5,0,10000,320,310
+  MY,5,0,15000,240,250
+  MX,5,10000,20000,310,320
+  MY,5,15000,20000,250,240
+ L,195036,8
+  R,17,0,2000,0,0.01
+  R,17,2000,4000,0.01,0
+ F,0,195036,195202,0,1
+ F,0,216252,,0
+ S,0,216252,,0.68
+Sprite,Background,Centre,"SB\4.jpg",320,0
+ S,0,179124,,0.87
+ F,0,179124,179290,0,1
+ MY,0,179124,192550,580,200
+ F,0,192384,192550,1,0
+Sprite,Background,Centre,"SB\5.jpg",320,0
+ L,228185,1
+  S,0,0,10000,0.62,0.64
+  S,0,10000,20000,0.64,0.62
+ L,228185,1
+  MY,5,0,15000,240,250
+  MY,5,15000,20000,250,240
+ L,228185,8
+  R,17,0,2000,0,0.01
+  R,17,2000,4000,0.01,0
+ F,0,228185,228351,0,1
+ F,0,247412,248075,1,0
+Sprite,Background,BottomCentre,"SB\boxey.jpg",320,480
+ V,0,-23,,1,0.8
+ C,0,251977,,0,0,0
+Sprite,Background,TopCentre,"SB\boxey.jpg",320,0
+ V,0,-23,,1,0.8
+ C,0,251977,,0,0,0
+Sprite,Background,Centre,"SB\1c.png",320,240
+ S,0,35920,,0.5
+ F,0,37046,37246,1,0
+Sprite,Background,Centre,"SB\2c.png",320,240
+ S,0,100892,,0.5
+ F,0,102018,102218,1,0
+Sprite,Background,Centre,"SB\3c.png",320,240
+ S,0,168517,,0.5
+ F,0,169643,169843,1,0
+Sprite,Background,Centre,"SB\4c.png",320,240
+ S,0,217577,,0.5
+ F,0,218703,218903,1,0
+Sprite,Background,Centre,"sb\lyricjp\_000.png",319.25,32.75
+ F,0,25177,25377,0,1
+ S,0,25377,,0.5
+ F,0,30057,30257,1,0
+Sprite,Background,Centre,"sb\lyricjp\_001.png",317,33
+ F,0,30397,30597,0,1
+ S,0,30597,,0.5
+ F,0,35957,36157,1,0
+Sprite,Background,Centre,"sb\lyricjp\_002.png",319.75,32.75
+ F,0,46397,46597,0,1
+ S,0,46597,,0.5
+ F,0,51317,51517,1,0
+Sprite,Background,Centre,"sb\lyricjp\_003.png",319.5,33
+ F,0,51637,51837,0,1
+ S,0,51837,,0.5
+ F,0,56577,56777,1,0
+Sprite,Background,Centre,"sb\lyricjp\_004.png",319.5,33
+ F,0,57037,57237,0,1
+ S,0,57237,,0.5
+ F,0,61897,62097,1,0
+Sprite,Background,Centre,"sb\lyricjp\_005.png",319.75,32.75
+ F,0,62257,62457,0,1
+ S,0,62457,,0.5
+ F,0,70457,70657,1,0
+Sprite,Background,Centre,"sb\lyricjp\_006.png",318.25,32.75
+ F,0,72297,72497,0,1
+ S,0,72497,,0.5
+ F,0,76837,77037,1,0
+Sprite,Background,Centre,"sb\lyricjp\_007.png",320,33
+ F,0,77557,77757,0,1
+ S,0,77757,,0.5
+ F,0,80637,80837,1,0
+Sprite,Background,Centre,"sb\lyricjp\_008.png",319.75,32.75
+ F,0,80637,80837,0,1
+ S,0,80837,,0.5
+ F,0,83297,83497,1,0
+Sprite,Background,Centre,"sb\lyricjp\_009.png",317,33
+ F,0,83577,83777,0,1
+ S,0,83777,,0.5
+ F,0,88557,88757,1,0
+Sprite,Background,Centre,"sb\lyricjp\_00a.png",320,33
+ F,0,88877,89077,0,1
+ S,0,89077,,0.5
+ F,0,93797,93997,1,0
+Sprite,Background,Centre,"sb\lyricjp\_00b.png",319.75,33
+ F,0,94157,94357,0,1
+ S,0,94357,,0.5
+ F,0,97997,98197,1,0
+Sprite,Background,Centre,"sb\lyricjp\_00c.png",317,32.75
+ F,0,98157,98357,0,1
+ S,0,98357,,0.5
+ F,0,100497,100697,1,0
+Sprite,Background,Centre,"sb\lyricjp\_00d.png",320.5,32.75
+ F,0,111377,111577,0,1
+ S,0,111577,,0.5
+ F,0,121057,121257,1,0
+Sprite,Background,Centre,"sb\lyricjp\_00e.png",320,32.75
+ F,0,121317,121517,0,1
+ S,0,121517,,0.5
+ F,0,126997,127197,1,0
+Sprite,Background,Centre,"sb\lyricjp\_00f.png",319.75,32.75
+ F,0,127237,127437,0,1
+ S,0,127437,,0.5
+ F,0,132737,132937,1,0
+Sprite,Background,Centre,"sb\lyricjp\_010.png",320,32.75
+ F,0,133377,133577,0,1
+ S,0,133577,,0.5
+ F,0,137437,137637,1,0
+Sprite,Background,Centre,"sb\lyricjp\_011.png",317,32.75
+ F,0,137917,138117,0,1
+ S,0,138117,,0.5
+ F,0,142817,143017,1,0
+Sprite,Background,Centre,"sb\lyricjp\_007.png",320,33
+ F,0,145177,145377,0,1
+ S,0,145377,,0.5
+ F,0,148117,148317,1,0
+Sprite,Background,Centre,"sb\lyricjp\_008.png",319.75,32.75
+ F,0,148117,148317,0,1
+ S,0,148317,,0.5
+ F,0,150937,151137,1,0
+Sprite,Background,Centre,"sb\lyricjp\_012.png",317.25,32.75
+ F,0,151217,151417,0,1
+ S,0,151417,,0.5
+ F,0,156277,156477,1,0
+Sprite,Background,Centre,"sb\lyricjp\_013.png",320,33
+ F,0,156497,156697,0,1
+ S,0,156697,,0.5
+ F,0,161377,161577,1,0
+Sprite,Background,Centre,"sb\lyricjp\_014.png",319.75,32.75
+ F,0,161717,161917,0,1
+ S,0,161917,,0.5
+ F,0,165497,165697,1,0
+Sprite,Background,Centre,"sb\lyricjp\_00c.png",317,32.75
+ F,0,165657,165857,0,1
+ S,0,165857,,0.5
+ F,0,168057,168257,1,0
+Sprite,Background,Centre,"sb\lyricjp\_015.png",320.75,32.75
+ F,0,191637,191837,0,1
+ S,0,191837,,0.5
+ F,0,194397,194597,1,0
+Sprite,Background,Centre,"sb\lyricjp\_016.png",320.25,33
+ F,0,194637,194837,0,1
+ S,0,194837,,0.5
+ F,0,197197,197397,1,0
+Sprite,Background,Centre,"sb\lyricjp\_008.png",319.75,32.75
+ F,0,197197,197397,0,1
+ S,0,197397,,0.5
+ F,0,199977,200177,1,0
+Sprite,Background,Centre,"sb\lyricjp\_017.png",317,32.75
+ F,0,200277,200477,0,1
+ S,0,200477,,0.5
+ F,0,205237,205437,1,0
+Sprite,Background,Centre,"sb\lyricjp\_018.png",320,33
+ F,0,205537,205737,0,1
+ S,0,205737,,0.5
+ F,0,210557,210757,1,0
+Sprite,Background,Centre,"sb\lyricjp\_019.png",319.5,32.75
+ F,0,210797,210997,0,1
+ S,0,210997,,0.5
+ F,0,214557,214757,1,0
+Sprite,Background,Centre,"sb\lyricjp\_00c.png",317,32.75
+ F,0,214737,214937,0,1
+ S,0,214937,,0.5
+ F,0,217137,217337,1,0
+Sprite,Background,Centre,"sb\lyricjp\_01a.png",319.5,32.5
+ F,0,238617,238817,0,1
+ S,0,238817,,0.5
+ F,0,240277,240477,1,0
+Sprite,Background,Centre,"sb\lyricjp\_00c.png",317,32.75
+ F,0,245157,245357,0,1
+ S,0,245357,,0.5
+ F,0,247417,247617,1,0
+Sprite,Background,Centre,"sb\lyric\_000.png",320.5,448.75
+ F,0,25177,25377,0,1
+ S,0,25377,,0.5
+ F,0,30057,30257,1,0
+Sprite,Background,Centre,"sb\lyric\_001.png",319.5,448.75
+ F,0,30397,30597,0,1
+ S,0,30597,,0.5
+ F,0,35957,36157,1,0
+Sprite,Background,Centre,"sb\lyric\_002.png",320.5,448.75
+ F,0,46397,46597,0,1
+ S,0,46597,,0.5
+ F,0,51317,51517,1,0
+Sprite,Background,Centre,"sb\lyric\_003.png",320.5,448.75
+ F,0,51637,51837,0,1
+ S,0,51837,,0.5
+ F,0,56577,56777,1,0
+Sprite,Background,Centre,"sb\lyric\_004.png",320.5,448.75
+ F,0,57037,57237,0,1
+ S,0,57237,,0.5
+ F,0,61897,62097,1,0
+Sprite,Background,Centre,"sb\lyric\_005.png",320.5,447.25
+ F,0,62257,62457,0,1
+ S,0,62457,,0.5
+ F,0,70457,70657,1,0
+Sprite,Background,Centre,"sb\lyric\_006.png",320,447.25
+ F,0,72297,72497,0,1
+ S,0,72497,,0.5
+ F,0,76837,77037,1,0
+Sprite,Background,Centre,"sb\lyric\_007.png",320.25,448.75
+ F,0,77557,77757,0,1
+ S,0,77757,,0.5
+ F,0,80637,80837,1,0
+Sprite,Background,Centre,"sb\lyric\_008.png",320,449.25
+ F,0,80637,80837,0,1
+ S,0,80837,,0.5
+ F,0,83297,83497,1,0
+Sprite,Background,Centre,"sb\lyric\_009.png",319.5,448.75
+ F,0,83577,83777,0,1
+ S,0,83777,,0.5
+ F,0,88557,88757,1,0
+Sprite,Background,Centre,"sb\lyric\_00a.png",320.5,448.75
+ F,0,88877,89077,0,1
+ S,0,89077,,0.5
+ F,0,93797,93997,1,0
+Sprite,Background,Centre,"sb\lyric\_00b.png",319.75,448.75
+ F,0,94157,94357,0,1
+ S,0,94357,,0.5
+ F,0,97997,98197,1,0
+Sprite,Background,Centre,"sb\lyric\_00c.png",319.75,448.75
+ F,0,98157,98357,0,1
+ S,0,98357,,0.5
+ F,0,100497,100697,1,0
+Sprite,Background,Centre,"sb\lyric\_00d.png",320,448.75
+ F,0,111377,111577,0,1
+ S,0,111577,,0.5
+ F,0,121057,121257,1,0
+Sprite,Background,Centre,"sb\lyric\_00e.png",320.25,448.75
+ F,0,121317,121517,0,1
+ S,0,121517,,0.5
+ F,0,126997,127197,1,0
+Sprite,Background,Centre,"sb\lyric\_00f.png",320.5,447.25
+ F,0,127237,127437,0,1
+ S,0,127437,,0.5
+ F,0,132737,132937,1,0
+Sprite,Background,Centre,"sb\lyric\_010.png",320,447.25
+ F,0,133377,133577,0,1
+ S,0,133577,,0.5
+ F,0,137437,137637,1,0
+Sprite,Background,Centre,"sb\lyric\_011.png",319.5,448.75
+ F,0,137917,138117,0,1
+ S,0,138117,,0.5
+ F,0,142817,143017,1,0
+Sprite,Background,Centre,"sb\lyric\_007.png",320.25,448.75
+ F,0,145177,145377,0,1
+ S,0,145377,,0.5
+ F,0,148117,148317,1,0
+Sprite,Background,Centre,"sb\lyric\_008.png",320,449.25
+ F,0,148117,148317,0,1
+ S,0,148317,,0.5
+ F,0,150937,151137,1,0
+Sprite,Background,Centre,"sb\lyric\_012.png",319.5,448.75
+ F,0,151217,151417,0,1
+ S,0,151417,,0.5
+ F,0,156277,156477,1,0
+Sprite,Background,Centre,"sb\lyric\_013.png",320.5,448.75
+ F,0,156497,156697,0,1
+ S,0,156697,,0.5
+ F,0,161377,161577,1,0
+Sprite,Background,Centre,"sb\lyric\_014.png",319.75,448.75
+ F,0,161717,161917,0,1
+ S,0,161917,,0.5
+ F,0,165497,165697,1,0
+Sprite,Background,Centre,"sb\lyric\_015.png",319.5,448.75
+ F,0,165657,165857,0,1
+ S,0,165857,,0.5
+ F,0,168057,168257,1,0
+Sprite,Background,Centre,"sb\lyric\_016.png",320.25,448.75
+ F,0,191637,191837,0,1
+ S,0,191837,,0.5
+ F,0,194397,194597,1,0
+Sprite,Background,Centre,"sb\lyric\_017.png",320,448.75
+ F,0,194637,194837,0,1
+ S,0,194837,,0.5
+ F,0,197197,197397,1,0
+Sprite,Background,Centre,"sb\lyric\_008.png",320,449.25
+ F,0,197197,197397,0,1
+ S,0,197397,,0.5
+ F,0,199977,200177,1,0
+Sprite,Background,Centre,"sb\lyric\_018.png",319.5,448.75
+ F,0,200277,200477,0,1
+ S,0,200477,,0.5
+ F,0,205237,205437,1,0
+Sprite,Background,Centre,"sb\lyric\_019.png",320.25,448.75
+ F,0,205537,205737,0,1
+ S,0,205737,,0.5
+ F,0,210557,210757,1,0
+Sprite,Background,Centre,"sb\lyric\_01a.png",320.25,448.75
+ F,0,210797,210997,0,1
+ S,0,210997,,0.5
+ F,0,214557,214757,1,0
+Sprite,Background,Centre,"sb\lyric\_015.png",319.5,448.75
+ F,0,214737,214937,0,1
+ S,0,214937,,0.5
+ F,0,217137,217337,1,0
+Sprite,Background,Centre,"sb\lyric\_01b.png",320,447.25
+ F,0,238617,238817,0,1
+ S,0,238817,,0.5
+ F,0,240277,240477,1,0
+Sprite,Background,Centre,"sb\lyric\_015.png",319.5,448.75
+ F,0,245157,245357,0,1
+ S,0,245357,,0.5
+ F,0,247417,247617,1,0
+Sprite,Background,Centre,"sb\title\_000.png",320,244
+ F,0,37046,37246,0,1
+ S,0,37246,,0.5
+ F,0,38372,38572,1,0
+Sprite,Background,Centre,"sb\title\_001.png",320,244.25
+ F,0,38372,38572,0,1
+ S,0,38572,,0.5
+ F,0,39698,39898,1,0
+Sprite,Background,Centre,"sb\title\_002.png",319.75,244
+ F,0,39698,39898,0,1
+ S,0,39898,,0.5
+ F,0,41024,41224,1,0
+Sprite,Background,Centre,"sb\title\_003.png",319.75,244
+ F,0,41024,41224,0,1
+ S,0,41224,,0.5
+ F,0,45002,45202,1,0
+Sprite,Background,Centre,"sb\title\_004.png",319.75,244
+ F,0,102018,102218,0,1
+ S,0,102218,,0.5
+ F,0,103344,103544,1,0
+Sprite,Background,Centre,"sb\title\_005.png",319.5,242.25
+ F,0,103344,103544,0,1
+ S,0,103544,,0.5
+ F,0,104670,104870,1,0
+Sprite,Background,Centre,"sb\title\_006.png",314,244
+ F,0,104670,104870,0,1
+ S,0,104870,,0.5
+ F,0,105996,106196,1,0
+Sprite,Background,Centre,"sb\title\_007.png",320,244
+ F,0,105996,106196,0,1
+ S,0,106196,,0.5
+ F,0,109974,110174,1,0
+Sprite,Background,Centre,"sb\title\_008.png",320,244
+ F,0,169643,169843,0,1
+ S,0,169843,,0.5
+ F,0,170969,171169,1,0
+Sprite,Background,Centre,"sb\title\_009.png",320,244
+ F,0,170969,171169,0,1
+ S,0,171169,,0.5
+ F,0,172295,172495,1,0
+Sprite,Background,Centre,"sb\title\_00a.png",319.5,242.5
+ F,0,172295,172495,0,1
+ S,0,172495,,0.5
+ F,0,173621,173821,1,0
+Sprite,Background,Centre,"sb\title\_00b.png",315.75,244
+ F,0,173621,173821,0,1
+ S,0,173821,,0.5
+ F,0,177598,177798,1,0
+Sprite,Background,Centre,"sb\title\_00c.png",319.75,244
+ F,0,218703,218903,0,1
+ S,0,218903,,0.5
+ F,0,220029,220229,1,0
+Sprite,Background,Centre,"sb\title\_00d.png",320,242.5
+ F,0,220029,220229,0,1
+ S,0,220229,,0.5
+ F,0,221355,221555,1,0
+Sprite,Background,Centre,"sb\title\_00e.png",316.5,244
+ F,0,221355,221555,0,1
+ S,0,221555,,0.5
+ F,0,222681,222881,1,0
+Sprite,Background,Centre,"sb\title\_00f.png",312.5,242.25
+ F,0,222681,222881,0,1
+ S,0,222881,,0.5
+ F,0,227985,228185,1,0
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples

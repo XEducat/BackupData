@@ -1,0 +1,599 @@
+----------------------------------------------------------
+runtime Log for Varof (LogLevel: Verbose)
+Running osu 2024.521.2.0 on .NET 8.0.5
+Environment: Windows (Microsoft Windows NT 10.0.22631.0), 8 cores 
+----------------------------------------------------------
+2024-06-08 00:13:46 [verbose]: Threaded optimizations set failed!
+2024-06-08 00:13:46 [verbose]: Starting legacy IPC provider...
+2024-06-08 00:13:46 [verbose]: 🖼️ Configuration renderer choice: Automatic
+2024-06-08 00:13:46 [verbose]: 🖼️ Renderer fallback order: [ Direct3D 11, Direct3D 11 (Experimental), OpenGL, Vulkan (Experimental) ]
+2024-06-08 00:13:46 [verbose]: 🖼️ Initialising "Veldrid" renderer with "Direct3D11" surface
+2024-06-08 00:13:46 [verbose]: Updated display mode to desktop resolution: 1920x1080@75, SDL_PIXELFORMAT_RGB888
+2024-06-08 00:13:46 [verbose]: Direct3D 11 Initialized
+2024-06-08 00:13:46 [verbose]: Direct3D 11 Feature Level:           11.1
+2024-06-08 00:13:46 [verbose]: Direct3D 11 Adapter:                 NVIDIA GeForce GTX 1650
+2024-06-08 00:13:46 [verbose]: Direct3D 11 Dedicated Video Memory:  3937 MB
+2024-06-08 00:13:46 [verbose]: Direct3D 11 Dedicated System Memory: 0 MB
+2024-06-08 00:13:46 [verbose]: Direct3D 11 Shared System Memory:    12221 MB
+2024-06-08 00:13:46 [verbose]: UseStructuredBuffers: True
+2024-06-08 00:13:46 [verbose]: 🖼️ Renderer initialised!
+2024-06-08 00:13:46 [verbose]: Host execution state changed to Running
+2024-06-08 00:13:46 [verbose]: Execution mode changed to MultiThreaded
+2024-06-08 00:13:47 [verbose]: 🔈 BASS initialised
+2024-06-08 00:13:47 [verbose]: BASS version:           2.4.16.7
+2024-06-08 00:13:47 [verbose]: BASS FX version:        2.4.12.6
+2024-06-08 00:13:47 [verbose]: BASS MIX version:       2.4.11.1
+2024-06-08 00:13:47 [verbose]: Device:                 Default
+2024-06-08 00:13:47 [verbose]: Driver:
+2024-06-08 00:13:47 [verbose]: Update period:          5 ms
+2024-06-08 00:13:47 [verbose]: Device buffer length:   10 ms
+2024-06-08 00:13:47 [verbose]: Playback buffer length: 100 ms
+2024-06-08 00:13:47 [verbose]: 🔈 BASS initialised
+2024-06-08 00:13:47 [verbose]: BASS version:           2.4.16.7
+2024-06-08 00:13:47 [verbose]: BASS FX version:        2.4.12.6
+2024-06-08 00:13:47 [verbose]: BASS MIX version:       2.4.11.1
+2024-06-08 00:13:47 [verbose]: Device:                 Default
+2024-06-08 00:13:47 [verbose]: Driver:
+2024-06-08 00:13:47 [verbose]: Update period:          5 ms
+2024-06-08 00:13:47 [verbose]: Device buffer length:   10 ms
+2024-06-08 00:13:47 [verbose]: Playback buffer length: 100 ms
+2024-06-08 00:13:47 [verbose]: Beginning realm file store cleanup
+2024-06-08 00:13:47 [verbose]: Finished realm file store cleanup (16 of 16 deleted)
+2024-06-08 00:13:47 [verbose]: Opened realm "C:\Users\Varof\AppData\Roaming\osu\client.realm" at version 41
+2024-06-08 00:13:47 [verbose]: 🖍️ Shader Texture2D/Texture loaded from cache!
+2024-06-08 00:13:47 [verbose]: 🖍️ Shader Texture2D/CircularProgress loaded from cache!
+2024-06-08 00:13:47 [verbose]: Updated display mode to fullscreen resolution: 1920x1080@75, SDL_PIXELFORMAT_RGB888
+2024-06-08 00:13:47 [verbose]: Loading FPSCounter...
+2024-06-08 00:13:48 [verbose]: Loaded FPSCounter!
+2024-06-08 00:13:48 [verbose]: Loading OsuLogo...
+2024-06-08 00:13:48 [verbose]: Texture -'s upload queue is large (100)
+2024-06-08 00:13:48 [verbose]: 🖍️ Shader Texture2D/TriangleBorder loaded from cache!
+2024-06-08 00:13:48 [verbose]: Loaded OsuLogo!
+2024-06-08 00:13:48 [verbose]: Loading UserStatisticsWatcher...
+2024-06-08 00:13:48 [verbose]: 📺 OsuScreenStack#612(depth:1) loading Loader#537
+2024-06-08 00:13:48 [verbose]: Loaded UserStatisticsWatcher!
+2024-06-08 00:13:48 [verbose]: Loading Toolbar...
+2024-06-08 00:13:48 [verbose]: 📺 OsuScreenStack#612(depth:1) entered Loader#537
+2024-06-08 00:13:48 [verbose]: 🖍️ Shader Texture2D/Blur loaded from cache!
+2024-06-08 00:13:48 [verbose]: 🖍️ Shader CursorTrail/Texture loaded from cache!
+2024-06-08 00:13:48 [verbose]: 🖍️ Shader Texture3D/Texture loaded from cache!
+2024-06-08 00:13:48 [verbose]: Texture -'s upload queue is large (200)
+2024-06-08 00:13:48 [verbose]: Texture -'s upload queue is large (300)
+2024-06-08 00:13:48 [verbose]: Texture -'s upload queue is large (400)
+2024-06-08 00:13:48 [verbose]: Texture -'s upload queue is large (500)
+2024-06-08 00:13:48 [verbose]: Loaded Toolbar!
+2024-06-08 00:13:48 [verbose]: Loading VolumeOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded VolumeOverlay!
+2024-06-08 00:13:48 [verbose]: Loading OnScreenDisplay...
+2024-06-08 00:13:48 [verbose]: Texture 's upload queue is large (100)
+2024-06-08 00:13:48 [verbose]: Loaded OnScreenDisplay!
+2024-06-08 00:13:48 [verbose]: Loading NotificationOverlay...
+2024-06-08 00:13:48 [verbose]: Texture 's upload queue is large (200)
+2024-06-08 00:13:48 [verbose]: Texture 's upload queue is large (300)
+2024-06-08 00:13:48 [verbose]: Loaded NotificationOverlay!
+2024-06-08 00:13:48 [verbose]: Loading LegacyImportManager...
+2024-06-08 00:13:48 [verbose]: Loaded LegacyImportManager!
+2024-06-08 00:13:48 [verbose]: Loading ScreenshotManager...
+2024-06-08 00:13:48 [verbose]: Loaded ScreenshotManager!
+2024-06-08 00:13:48 [verbose]: Loading SquirrelUpdateManager...
+2024-06-08 00:13:48 [verbose]: Loaded SquirrelUpdateManager!
+2024-06-08 00:13:48 [verbose]: Loading FirstRunSetupOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded FirstRunSetupOverlay!
+2024-06-08 00:13:48 [verbose]: Loading ManageCollectionsDialog...
+2024-06-08 00:13:48 [verbose]: Texture 's upload queue is large (400)
+2024-06-08 00:13:48 [verbose]: Loaded ManageCollectionsDialog!
+2024-06-08 00:13:48 [verbose]: Loading BeatmapListingOverlay...
+2024-06-08 00:13:48 [verbose]: Texture -'s upload queue is large (100)
+2024-06-08 00:13:48 [verbose]: Loaded BeatmapListingOverlay!
+2024-06-08 00:13:48 [verbose]: Loading DashboardOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded DashboardOverlay!
+2024-06-08 00:13:48 [verbose]: Loading NewsOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded NewsOverlay!
+2024-06-08 00:13:48 [verbose]: Loading RankingsOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded RankingsOverlay!
+2024-06-08 00:13:48 [verbose]: Loading ChannelManager...
+2024-06-08 00:13:48 [verbose]: Loaded ChannelManager!
+2024-06-08 00:13:48 [verbose]: Loading ChatOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded ChatOverlay!
+2024-06-08 00:13:48 [verbose]: Loading MessageNotifier...
+2024-06-08 00:13:48 [verbose]: Loaded MessageNotifier!
+2024-06-08 00:13:48 [verbose]: Loading SettingsOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded SettingsOverlay!
+2024-06-08 00:13:48 [verbose]: Loading ChangelogOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded ChangelogOverlay!
+2024-06-08 00:13:48 [verbose]: Loading UserProfileOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded UserProfileOverlay!
+2024-06-08 00:13:48 [verbose]: Loading BeatmapSetOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded BeatmapSetOverlay!
+2024-06-08 00:13:48 [verbose]: Loading WikiOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded WikiOverlay!
+2024-06-08 00:13:48 [verbose]: Loading SkinEditorOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded SkinEditorOverlay!
+2024-06-08 00:13:48 [verbose]: Loading LoginOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded LoginOverlay!
+2024-06-08 00:13:48 [verbose]: Loading NowPlayingOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded NowPlayingOverlay!
+2024-06-08 00:13:48 [verbose]: Loading AccountCreationOverlay...
+2024-06-08 00:13:48 [verbose]: 📺 ScreenStack#324(depth:1) scheduling push ScreenWelcome#551
+2024-06-08 00:13:48 [verbose]: Loaded AccountCreationOverlay!
+2024-06-08 00:13:48 [verbose]: Loading DialogOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded DialogOverlay!
+2024-06-08 00:13:48 [verbose]: Loading MedalOverlay...
+2024-06-08 00:13:48 [verbose]: Loaded MedalOverlay!
+2024-06-08 00:13:48 [verbose]: Loading BackgroundDataStoreProcessor...
+2024-06-08 00:13:48 [verbose]: Beginning background data store processing..
+2024-06-08 00:13:48 [verbose]: Querying for beatmap sets to reprocess...
+2024-06-08 00:13:48 [verbose]: Loaded BackgroundDataStoreProcessor!
+2024-06-08 00:13:48 [verbose]: Querying for beatmaps with missing hitobject counts to reprocess...
+2024-06-08 00:13:48 [verbose]: Querying for scores to reprocess...
+2024-06-08 00:13:48 [verbose]: Querying for scores that need total score conversion...
+2024-06-08 00:13:48 [verbose]: Found 0 scores which require total score conversion.
+2024-06-08 00:13:48 [verbose]: Querying for scores that need rank upgrades...
+2024-06-08 00:13:48 [verbose]: Found 0 scores which require rank upgrades.
+2024-06-08 00:13:48 [verbose]: Finished background data store processing!
+2024-06-08 00:13:49 [verbose]: 📺 OsuScreenStack#612(depth:1) suspended Loader#537 (waiting on IntroTriangles#559)
+2024-06-08 00:13:49 [verbose]: 📺 OsuScreenStack#612(depth:2) entered IntroTriangles#559
+2024-06-08 00:13:49 [verbose]: 📺 BackgroundScreenStack#114(depth:1) loading BackgroundScreenDefault#291
+2024-06-08 00:13:49 [verbose]: Game-wide working beatmap updated to cYsmix - triangles (peppy) [peppy]
+2024-06-08 00:13:49 [verbose]: 📺 BackgroundScreenStack#114(depth:1) entered BackgroundScreenDefault#291
+2024-06-08 00:13:49 [verbose]: 🌅 Global background change queued
+2024-06-08 00:13:49 [verbose]: 🖍️ Shader LogoAnimation/LogoAnimation loaded from cache!
+2024-06-08 00:13:49 [verbose]: decoupled ruleset transferred ("" -> "osu!")
+2024-06-08 00:13:49 [verbose]: Texture 's upload queue is large (100)
+2024-06-08 00:13:49 [verbose]: Texture 's upload queue is large (100)
+2024-06-08 00:13:49 [verbose]: 🌅 Global background loading
+2024-06-08 00:13:49 [verbose]: 🌅 Global background change queued
+2024-06-08 00:13:50 [verbose]: 🌅 Global background loading
+2024-06-08 00:13:50 [verbose]: Requesting catch-up from 8351563
+2024-06-08 00:13:50 [verbose]: Requesting any changes since last known queue id 8351563
+2024-06-08 00:13:50 [verbose]: Current channel changed to hHATEe
+2024-06-08 00:13:50 [verbose]: Requesting catch-up from 8351613
+2024-06-08 00:13:50 [verbose]: Requesting any changes since last known queue id 8351613
+2024-06-08 00:13:50 [verbose]: Requesting catch-up from 8351663
+2024-06-08 00:13:50 [verbose]: Requesting any changes since last known queue id 8351663
+2024-06-08 00:13:51 [verbose]: Requesting catch-up from 8351713
+2024-06-08 00:13:51 [verbose]: Requesting any changes since last known queue id 8351713
+2024-06-08 00:13:51 [verbose]: Requesting catch-up from 8351763
+2024-06-08 00:13:51 [verbose]: Requesting any changes since last known queue id 8351763
+2024-06-08 00:13:51 [verbose]: Requesting catch-up from 8351813
+2024-06-08 00:13:51 [verbose]: Requesting any changes since last known queue id 8351813
+2024-06-08 00:13:51 [verbose]: Requesting catch-up from 8351863
+2024-06-08 00:13:51 [verbose]: Requesting any changes since last known queue id 8351863
+2024-06-08 00:13:51 [verbose]: Requesting catch-up from 8351913
+2024-06-08 00:13:51 [verbose]: Requesting any changes since last known queue id 8351913
+2024-06-08 00:13:52 [verbose]: Requesting catch-up from 8351963
+2024-06-08 00:13:52 [verbose]: Requesting any changes since last known queue id 8351963
+2024-06-08 00:13:52 [verbose]: 📺 OsuScreenStack#612(depth:2) suspended IntroTriangles#559 (waiting on MainMenu#639)
+2024-06-08 00:13:52 [verbose]: 📺 OsuScreenStack#612(depth:3) entered MainMenu#639
+2024-06-08 00:13:52 [verbose]: Requesting catch-up from 8352013
+2024-06-08 00:13:52 [verbose]: Requesting any changes since last known queue id 8352013
+2024-06-08 00:13:52 [verbose]: Requesting catch-up from 8352063
+2024-06-08 00:13:52 [verbose]: Requesting any changes since last known queue id 8352063
+2024-06-08 00:13:52 [verbose]: Requesting catch-up from 8352113
+2024-06-08 00:13:52 [verbose]: Requesting any changes since last known queue id 8352113
+2024-06-08 00:13:52 [verbose]: Requesting catch-up from 8352163
+2024-06-08 00:13:52 [verbose]: Requesting any changes since last known queue id 8352163
+2024-06-08 00:13:53 [verbose]: Requesting catch-up from 8352213
+2024-06-08 00:13:53 [verbose]: Requesting any changes since last known queue id 8352213
+2024-06-08 00:13:53 [verbose]: Requesting catch-up from 8352263
+2024-06-08 00:13:53 [verbose]: Requesting any changes since last known queue id 8352263
+2024-06-08 00:13:53 [verbose]: Requesting catch-up from 8352313
+2024-06-08 00:13:53 [verbose]: Requesting any changes since last known queue id 8352313
+2024-06-08 00:13:53 [verbose]: Requesting catch-up from 8352363
+2024-06-08 00:13:53 [verbose]: Requesting any changes since last known queue id 8352363
+2024-06-08 00:13:53 [verbose]: Requesting catch-up from 8352413
+2024-06-08 00:13:53 [verbose]: Requesting any changes since last known queue id 8352413
+2024-06-08 00:13:54 [verbose]: Requesting catch-up from 8352463
+2024-06-08 00:13:54 [verbose]: Requesting any changes since last known queue id 8352463
+2024-06-08 00:13:54 [verbose]: Requesting catch-up from 8352513
+2024-06-08 00:13:54 [verbose]: Requesting any changes since last known queue id 8352513
+2024-06-08 00:13:54 [verbose]: Requesting catch-up from 8352563
+2024-06-08 00:13:54 [verbose]: Requesting any changes since last known queue id 8352563
+2024-06-08 00:13:54 [verbose]: Requesting catch-up from 8352613
+2024-06-08 00:13:54 [verbose]: Requesting any changes since last known queue id 8352613
+2024-06-08 00:13:54 [verbose]: Requesting catch-up from 8352663
+2024-06-08 00:13:54 [verbose]: Requesting any changes since last known queue id 8352663
+2024-06-08 00:13:55 [verbose]: Requesting catch-up from 8352713
+2024-06-08 00:13:55 [verbose]: Requesting any changes since last known queue id 8352713
+2024-06-08 00:13:55 [verbose]: Requesting catch-up from 8352763
+2024-06-08 00:13:55 [verbose]: Requesting any changes since last known queue id 8352763
+2024-06-08 00:13:55 [verbose]: Requesting catch-up from 8352813
+2024-06-08 00:13:55 [verbose]: Requesting any changes since last known queue id 8352813
+2024-06-08 00:13:55 [verbose]: Requesting catch-up from 8352863
+2024-06-08 00:13:55 [verbose]: Requesting any changes since last known queue id 8352863
+2024-06-08 00:13:55 [verbose]: Requesting catch-up from 8352913
+2024-06-08 00:13:55 [verbose]: Requesting any changes since last known queue id 8352913
+2024-06-08 00:13:56 [verbose]: Requesting catch-up from 8352963
+2024-06-08 00:13:56 [verbose]: Requesting any changes since last known queue id 8352963
+2024-06-08 00:13:56 [verbose]: Requesting catch-up from 8353013
+2024-06-08 00:13:56 [verbose]: Requesting any changes since last known queue id 8353013
+2024-06-08 00:13:56 [verbose]: Requesting catch-up from 8353063
+2024-06-08 00:13:56 [verbose]: Requesting any changes since last known queue id 8353063
+2024-06-08 00:13:56 [verbose]: Requesting catch-up from 8353113
+2024-06-08 00:13:56 [verbose]: Requesting any changes since last known queue id 8353113
+2024-06-08 00:13:56 [verbose]: Requesting catch-up from 8353163
+2024-06-08 00:13:56 [verbose]: Requesting any changes since last known queue id 8353163
+2024-06-08 00:13:57 [verbose]: Requesting catch-up from 8353213
+2024-06-08 00:13:57 [verbose]: Requesting any changes since last known queue id 8353213
+2024-06-08 00:13:57 [verbose]: Requesting catch-up from 8353263
+2024-06-08 00:13:57 [verbose]: Requesting any changes since last known queue id 8353263
+2024-06-08 00:13:57 [verbose]: Requesting catch-up from 8353313
+2024-06-08 00:13:57 [verbose]: Requesting any changes since last known queue id 8353313
+2024-06-08 00:13:57 [verbose]: Requesting catch-up from 8353363
+2024-06-08 00:13:57 [verbose]: Requesting any changes since last known queue id 8353363
+2024-06-08 00:13:57 [verbose]: Requesting catch-up from 8353413
+2024-06-08 00:13:57 [verbose]: Requesting any changes since last known queue id 8353413
+2024-06-08 00:13:57 [verbose]: Requesting catch-up from 8353463
+2024-06-08 00:13:57 [verbose]: Requesting any changes since last known queue id 8353463
+2024-06-08 00:13:58 [verbose]: Requesting catch-up from 8353513
+2024-06-08 00:13:58 [verbose]: Requesting any changes since last known queue id 8353513
+2024-06-08 00:13:58 [verbose]: Received beatmap updates 1 updates with last id 8360338
+2024-06-08 00:13:58 [verbose]: Requesting catch-up from 8353563
+2024-06-08 00:13:58 [verbose]: Requesting any changes since last known queue id 8353563
+2024-06-08 00:13:58 [verbose]: Requesting catch-up from 8353613
+2024-06-08 00:13:58 [verbose]: Requesting any changes since last known queue id 8353613
+2024-06-08 00:13:58 [verbose]: Requesting catch-up from 8353663
+2024-06-08 00:13:58 [verbose]: Requesting any changes since last known queue id 8353663
+2024-06-08 00:13:58 [verbose]: Requesting catch-up from 8353713
+2024-06-08 00:13:58 [verbose]: Requesting any changes since last known queue id 8353713
+2024-06-08 00:13:59 [verbose]: Requesting catch-up from 8353763
+2024-06-08 00:13:59 [verbose]: Requesting any changes since last known queue id 8353763
+2024-06-08 00:13:59 [verbose]: Requesting catch-up from 8353813
+2024-06-08 00:13:59 [verbose]: Requesting any changes since last known queue id 8353813
+2024-06-08 00:13:59 [verbose]: Requesting catch-up from 8353863
+2024-06-08 00:13:59 [verbose]: Requesting any changes since last known queue id 8353863
+2024-06-08 00:13:59 [verbose]: Requesting catch-up from 8353913
+2024-06-08 00:13:59 [verbose]: Requesting any changes since last known queue id 8353913
+2024-06-08 00:13:59 [verbose]: Requesting catch-up from 8353963
+2024-06-08 00:13:59 [verbose]: Requesting any changes since last known queue id 8353963
+2024-06-08 00:14:00 [verbose]: Requesting catch-up from 8354013
+2024-06-08 00:14:00 [verbose]: Requesting any changes since last known queue id 8354013
+2024-06-08 00:14:00 [verbose]: Requesting catch-up from 8354063
+2024-06-08 00:14:00 [verbose]: Requesting any changes since last known queue id 8354063
+2024-06-08 00:14:00 [verbose]: Requesting catch-up from 8354113
+2024-06-08 00:14:00 [verbose]: Requesting any changes since last known queue id 8354113
+2024-06-08 00:14:00 [verbose]: Requesting catch-up from 8354163
+2024-06-08 00:14:00 [verbose]: Requesting any changes since last known queue id 8354163
+2024-06-08 00:14:00 [verbose]: Requesting catch-up from 8354213
+2024-06-08 00:14:00 [verbose]: Requesting any changes since last known queue id 8354213
+2024-06-08 00:14:01 [verbose]: Requesting catch-up from 8354263
+2024-06-08 00:14:01 [verbose]: Requesting any changes since last known queue id 8354263
+2024-06-08 00:14:01 [verbose]: Requesting catch-up from 8354313
+2024-06-08 00:14:01 [verbose]: Requesting any changes since last known queue id 8354313
+2024-06-08 00:14:01 [verbose]: Requesting catch-up from 8354363
+2024-06-08 00:14:01 [verbose]: Requesting any changes since last known queue id 8354363
+2024-06-08 00:14:01 [verbose]: Requesting catch-up from 8354413
+2024-06-08 00:14:01 [verbose]: Requesting any changes since last known queue id 8354413
+2024-06-08 00:14:01 [verbose]: ButtonSystem's state changed from Initial to TopLevel
+2024-06-08 00:14:01 [verbose]: Requesting catch-up from 8354463
+2024-06-08 00:14:01 [verbose]: Requesting any changes since last known queue id 8354463
+2024-06-08 00:14:02 [verbose]: Requesting catch-up from 8354513
+2024-06-08 00:14:02 [verbose]: Requesting any changes since last known queue id 8354513
+2024-06-08 00:14:02 [verbose]: Requesting catch-up from 8354563
+2024-06-08 00:14:02 [verbose]: Requesting any changes since last known queue id 8354563
+2024-06-08 00:14:02 [verbose]: Requesting catch-up from 8354613
+2024-06-08 00:14:02 [verbose]: Requesting any changes since last known queue id 8354613
+2024-06-08 00:14:02 [verbose]: ButtonSystem's state changed from TopLevel to Play
+2024-06-08 00:14:02 [verbose]: Requesting catch-up from 8354663
+2024-06-08 00:14:02 [verbose]: Requesting any changes since last known queue id 8354663
+2024-06-08 00:14:02 [verbose]: Requesting catch-up from 8354713
+2024-06-08 00:14:02 [verbose]: Requesting any changes since last known queue id 8354713
+2024-06-08 00:14:02 [verbose]: 📺 OsuScreenStack#612(depth:3) suspended MainMenu#639 (waiting on PlaySongSelect#237)
+2024-06-08 00:14:02 [verbose]: ButtonSystem's state changed from Play to EnteringMode
+2024-06-08 00:14:02 [verbose]: 📺 OsuScreenStack#612(depth:4) entered PlaySongSelect#237
+2024-06-08 00:14:02 [verbose]: 📺 BackgroundScreenStack#114(depth:2) loading BackgroundScreenBeatmap#510
+2024-06-08 00:14:02 [verbose]: 📺 BackgroundScreenStack#114(depth:2) suspended BackgroundScreenDefault#291 (waiting on BackgroundScreenBeatmap#510)
+2024-06-08 00:14:02 [verbose]: 📺 BackgroundScreenStack#114(depth:2) entered BackgroundScreenBeatmap#510
+2024-06-08 00:14:02 [verbose]: Song select updating selection with beatmap:f67d1676-b534-4eea-b890-d0f4a7045ba0 ruleset:osu
+2024-06-08 00:14:02 [verbose]: Song select changing beatmap from "cYsmix - triangles (peppy) [peppy]" to "Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]"
+2024-06-08 00:14:02 [verbose]: Game-wide working beatmap updated to Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]
+2024-06-08 00:14:02 [verbose]: Song select working beatmap updated to Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]
+2024-06-08 00:14:02 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:02 [verbose]: 🌅 Global background change queued
+2024-06-08 00:14:03 [verbose]: Requesting catch-up from 8354763
+2024-06-08 00:14:03 [verbose]: Requesting any changes since last known queue id 8354763
+2024-06-08 00:14:03 [verbose]: Requesting catch-up from 8354813
+2024-06-08 00:14:03 [verbose]: Requesting any changes since last known queue id 8354813
+2024-06-08 00:14:03 [verbose]: Requesting catch-up from 8354863
+2024-06-08 00:14:03 [verbose]: Requesting any changes since last known queue id 8354863
+2024-06-08 00:14:03 [verbose]: Requesting catch-up from 8354913
+2024-06-08 00:14:03 [verbose]: Requesting any changes since last known queue id 8354913
+2024-06-08 00:14:03 [verbose]: Requesting catch-up from 8354963
+2024-06-08 00:14:03 [verbose]: Requesting any changes since last known queue id 8354963
+2024-06-08 00:14:04 [verbose]: Requesting catch-up from 8355013
+2024-06-08 00:14:04 [verbose]: Requesting any changes since last known queue id 8355013
+2024-06-08 00:14:04 [verbose]: Requesting catch-up from 8355063
+2024-06-08 00:14:04 [verbose]: Requesting any changes since last known queue id 8355063
+2024-06-08 00:14:04 [verbose]: Requesting catch-up from 8355113
+2024-06-08 00:14:04 [verbose]: Requesting any changes since last known queue id 8355113
+2024-06-08 00:14:04 [verbose]: Requesting catch-up from 8355163
+2024-06-08 00:14:04 [verbose]: Requesting any changes since last known queue id 8355163
+2024-06-08 00:14:04 [verbose]: Requesting catch-up from 8355213
+2024-06-08 00:14:04 [verbose]: Requesting any changes since last known queue id 8355213
+2024-06-08 00:14:05 [verbose]: Requesting catch-up from 8355263
+2024-06-08 00:14:05 [verbose]: Requesting any changes since last known queue id 8355263
+2024-06-08 00:14:05 [verbose]: Requesting catch-up from 8355313
+2024-06-08 00:14:05 [verbose]: Requesting any changes since last known queue id 8355313
+2024-06-08 00:14:05 [verbose]: Requesting catch-up from 8355363
+2024-06-08 00:14:05 [verbose]: Requesting any changes since last known queue id 8355363
+2024-06-08 00:14:05 [verbose]: Requesting catch-up from 8355413
+2024-06-08 00:14:05 [verbose]: Requesting any changes since last known queue id 8355413
+2024-06-08 00:14:05 [verbose]: Requesting catch-up from 8355463
+2024-06-08 00:14:05 [verbose]: Requesting any changes since last known queue id 8355463
+2024-06-08 00:14:05 [verbose]: Requesting catch-up from 8355513
+2024-06-08 00:14:05 [verbose]: Requesting any changes since last known queue id 8355513
+2024-06-08 00:14:06 [verbose]: Requesting catch-up from 8355563
+2024-06-08 00:14:06 [verbose]: Requesting any changes since last known queue id 8355563
+2024-06-08 00:14:06 [verbose]: Requesting catch-up from 8355613
+2024-06-08 00:14:06 [verbose]: Requesting any changes since last known queue id 8355613
+2024-06-08 00:14:06 [verbose]: Requesting catch-up from 8355663
+2024-06-08 00:14:06 [verbose]: Requesting any changes since last known queue id 8355663
+2024-06-08 00:14:06 [verbose]: Requesting catch-up from 8355713
+2024-06-08 00:14:06 [verbose]: Requesting any changes since last known queue id 8355713
+2024-06-08 00:14:06 [verbose]: Requesting catch-up from 8355763
+2024-06-08 00:14:06 [verbose]: Requesting any changes since last known queue id 8355763
+2024-06-08 00:14:07 [verbose]: Requesting catch-up from 8355813
+2024-06-08 00:14:07 [verbose]: Requesting any changes since last known queue id 8355813
+2024-06-08 00:14:07 [verbose]: Song select updating selection with beatmap:null ruleset:osu
+2024-06-08 00:14:07 [verbose]: Song select changing beatmap from "Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]" to "null"
+2024-06-08 00:14:07 [verbose]: Game-wide working beatmap updated to please load a beatmap! - no beatmaps available!
+2024-06-08 00:14:07 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:07 [verbose]: Requesting catch-up from 8355863
+2024-06-08 00:14:07 [verbose]: Requesting any changes since last known queue id 8355863
+2024-06-08 00:14:07 [verbose]: Requesting catch-up from 8355913
+2024-06-08 00:14:07 [verbose]: Requesting any changes since last known queue id 8355913
+2024-06-08 00:14:07 [verbose]: Requesting catch-up from 8355963
+2024-06-08 00:14:07 [verbose]: Requesting any changes since last known queue id 8355963
+2024-06-08 00:14:07 [verbose]: Requesting catch-up from 8356013
+2024-06-08 00:14:07 [verbose]: Requesting any changes since last known queue id 8356013
+2024-06-08 00:14:08 [verbose]: Requesting catch-up from 8356063
+2024-06-08 00:14:08 [verbose]: Requesting any changes since last known queue id 8356063
+2024-06-08 00:14:08 [verbose]: Requesting catch-up from 8356113
+2024-06-08 00:14:08 [verbose]: Requesting any changes since last known queue id 8356113
+2024-06-08 00:14:08 [verbose]: Requesting catch-up from 8356163
+2024-06-08 00:14:08 [verbose]: Requesting any changes since last known queue id 8356163
+2024-06-08 00:14:08 [verbose]: Requesting catch-up from 8356213
+2024-06-08 00:14:08 [verbose]: Requesting any changes since last known queue id 8356213
+2024-06-08 00:14:08 [verbose]: Song select updating selection with beatmap:45c17a92-80e1-4d92-ae71-8e0959013893 ruleset:osu
+2024-06-08 00:14:08 [verbose]: Song select changing beatmap from "please load a beatmap! - no beatmaps available!" to "UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]"
+2024-06-08 00:14:08 [verbose]: Game-wide working beatmap updated to UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]
+2024-06-08 00:14:08 [verbose]: Song select working beatmap updated to UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]
+2024-06-08 00:14:08 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:08 [verbose]: Requesting catch-up from 8356263
+2024-06-08 00:14:08 [verbose]: Requesting any changes since last known queue id 8356263
+2024-06-08 00:14:09 [verbose]: Requesting catch-up from 8356313
+2024-06-08 00:14:09 [verbose]: Requesting any changes since last known queue id 8356313
+2024-06-08 00:14:09 [verbose]: Requesting catch-up from 8356363
+2024-06-08 00:14:09 [verbose]: Requesting any changes since last known queue id 8356363
+2024-06-08 00:14:09 [verbose]: Requesting catch-up from 8356413
+2024-06-08 00:14:09 [verbose]: Requesting any changes since last known queue id 8356413
+2024-06-08 00:14:09 [verbose]: Requesting catch-up from 8356463
+2024-06-08 00:14:09 [verbose]: Requesting any changes since last known queue id 8356463
+2024-06-08 00:14:09 [verbose]: Requesting catch-up from 8356513
+2024-06-08 00:14:09 [verbose]: Requesting any changes since last known queue id 8356513
+2024-06-08 00:14:10 [verbose]: Requesting catch-up from 8356563
+2024-06-08 00:14:10 [verbose]: Requesting any changes since last known queue id 8356563
+2024-06-08 00:14:10 [verbose]: Song select updating selection with beatmap:85b05794-4b6a-44c1-ba12-cd6d3b9ef401 ruleset:osu
+2024-06-08 00:14:10 [verbose]: Song select changing beatmap from "UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]" to "Kudou Chitose - CHO-DARI- (SMOKELIND) [ELI'S HARD]"
+2024-06-08 00:14:10 [verbose]: Game-wide working beatmap updated to Kudou Chitose - CHO-DARI- (SMOKELIND) [ELI'S HARD]
+2024-06-08 00:14:10 [verbose]: Song select working beatmap updated to Kudou Chitose - CHO-DARI- (SMOKELIND) [ELI'S HARD]
+2024-06-08 00:14:10 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:10 [verbose]: Requesting catch-up from 8356613
+2024-06-08 00:14:10 [verbose]: Requesting any changes since last known queue id 8356613
+2024-06-08 00:14:10 [verbose]: Requesting catch-up from 8356663
+2024-06-08 00:14:10 [verbose]: Requesting any changes since last known queue id 8356663
+2024-06-08 00:14:10 [verbose]: Requesting catch-up from 8356713
+2024-06-08 00:14:10 [verbose]: Requesting any changes since last known queue id 8356713
+2024-06-08 00:14:10 [verbose]: Song select updating selection with beatmap:a02462a3-9883-40d6-883f-ec91712a4577 ruleset:osu
+2024-06-08 00:14:10 [verbose]: Song select changing beatmap from "Kudou Chitose - CHO-DARI- (SMOKELIND) [ELI'S HARD]" to "nobodyknows+ - Hero's Come Back!! (TV Size) (-Lian-) [Hard]"
+2024-06-08 00:14:10 [verbose]: Game-wide working beatmap updated to nobodyknows+ - Hero's Come Back!! (TV Size) (-Lian-) [Hard]
+2024-06-08 00:14:10 [verbose]: Song select working beatmap updated to nobodyknows+ - Hero's Come Back!! (TV Size) (-Lian-) [Hard]
+2024-06-08 00:14:10 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:10 [verbose]: Requesting catch-up from 8356763
+2024-06-08 00:14:10 [verbose]: Requesting any changes since last known queue id 8356763
+2024-06-08 00:14:11 [verbose]: Requesting catch-up from 8356813
+2024-06-08 00:14:11 [verbose]: Requesting any changes since last known queue id 8356813
+2024-06-08 00:14:11 [verbose]: Requesting catch-up from 8356863
+2024-06-08 00:14:11 [verbose]: Requesting any changes since last known queue id 8356863
+2024-06-08 00:14:11 [verbose]: Requesting catch-up from 8356913
+2024-06-08 00:14:11 [verbose]: Requesting any changes since last known queue id 8356913
+2024-06-08 00:14:11 [verbose]: Requesting catch-up from 8356963
+2024-06-08 00:14:11 [verbose]: Requesting any changes since last known queue id 8356963
+2024-06-08 00:14:11 [verbose]: Requesting catch-up from 8357013
+2024-06-08 00:14:11 [verbose]: Requesting any changes since last known queue id 8357013
+2024-06-08 00:14:11 [verbose]: Song select updating selection with beatmap:f78679ba-7238-4902-a877-a0194c98c261 ruleset:osu
+2024-06-08 00:14:11 [verbose]: Song select changing beatmap from "nobodyknows+ - Hero's Come Back!! (TV Size) (-Lian-) [Hard]" to "Omoi - Hey William (New Translation) (Saoji) [Noffy's Hard]"
+2024-06-08 00:14:11 [verbose]: Game-wide working beatmap updated to Omoi - Hey William (New Translation) (Saoji) [Noffy's Hard]
+2024-06-08 00:14:11 [verbose]: Song select working beatmap updated to Omoi - Hey William (New Translation) (Saoji) [Noffy's Hard]
+2024-06-08 00:14:11 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:12 [verbose]: Requesting catch-up from 8357063
+2024-06-08 00:14:12 [verbose]: Requesting any changes since last known queue id 8357063
+2024-06-08 00:14:12 [verbose]: Requesting catch-up from 8357113
+2024-06-08 00:14:12 [verbose]: Requesting any changes since last known queue id 8357113
+2024-06-08 00:14:12 [verbose]: Requesting catch-up from 8357163
+2024-06-08 00:14:12 [verbose]: Requesting any changes since last known queue id 8357163
+2024-06-08 00:14:12 [verbose]: Song select updating selection with beatmap:f67d1676-b534-4eea-b890-d0f4a7045ba0 ruleset:osu
+2024-06-08 00:14:12 [verbose]: Song select changing beatmap from "Omoi - Hey William (New Translation) (Saoji) [Noffy's Hard]" to "Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]"
+2024-06-08 00:14:12 [verbose]: Game-wide working beatmap updated to Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]
+2024-06-08 00:14:12 [verbose]: Song select working beatmap updated to Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]
+2024-06-08 00:14:12 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:12 [verbose]: Requesting catch-up from 8357213
+2024-06-08 00:14:12 [verbose]: Requesting any changes since last known queue id 8357213
+2024-06-08 00:14:12 [verbose]: Requesting catch-up from 8357263
+2024-06-08 00:14:12 [verbose]: Requesting any changes since last known queue id 8357263
+2024-06-08 00:14:13 [verbose]: Requesting catch-up from 8357313
+2024-06-08 00:14:13 [verbose]: Requesting any changes since last known queue id 8357313
+2024-06-08 00:14:13 [verbose]: Song select updating selection with beatmap:9a99fec5-e941-48b2-9df9-2d5d1d1ecee3 ruleset:osu
+2024-06-08 00:14:13 [verbose]: Song select changing beatmap from "Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]" to "Shiro Sagisu - Clavar La Espada (Martis_ltu) [Insane]"
+2024-06-08 00:14:13 [verbose]: Game-wide working beatmap updated to Shiro Sagisu - Clavar La Espada (Martis_ltu) [Insane]
+2024-06-08 00:14:13 [verbose]: Song select working beatmap updated to Shiro Sagisu - Clavar La Espada (Martis_ltu) [Insane]
+2024-06-08 00:14:13 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:13 [verbose]: Requesting catch-up from 8357363
+2024-06-08 00:14:13 [verbose]: Requesting any changes since last known queue id 8357363
+2024-06-08 00:14:13 [verbose]: Requesting catch-up from 8357413
+2024-06-08 00:14:13 [verbose]: Requesting any changes since last known queue id 8357413
+2024-06-08 00:14:13 [verbose]: Requesting catch-up from 8357463
+2024-06-08 00:14:13 [verbose]: Requesting any changes since last known queue id 8357463
+2024-06-08 00:14:13 [verbose]: Requesting catch-up from 8357513
+2024-06-08 00:14:13 [verbose]: Requesting any changes since last known queue id 8357513
+2024-06-08 00:14:14 [verbose]: Song select updating selection with beatmap:f40e054d-c066-4805-8670-f0cd8dedf672 ruleset:osu
+2024-06-08 00:14:14 [verbose]: Song select changing beatmap from "Shiro Sagisu - Clavar La Espada (Martis_ltu) [Insane]" to "Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]"
+2024-06-08 00:14:14 [verbose]: Game-wide working beatmap updated to Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]
+2024-06-08 00:14:14 [verbose]: Song select working beatmap updated to Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]
+2024-06-08 00:14:14 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:14 [verbose]: Requesting catch-up from 8357563
+2024-06-08 00:14:14 [verbose]: Requesting any changes since last known queue id 8357563
+2024-06-08 00:14:14 [verbose]: Requesting catch-up from 8357613
+2024-06-08 00:14:14 [verbose]: Requesting any changes since last known queue id 8357613
+2024-06-08 00:14:14 [verbose]: Requesting catch-up from 8357663
+2024-06-08 00:14:14 [verbose]: Requesting any changes since last known queue id 8357663
+2024-06-08 00:14:14 [verbose]: Requesting catch-up from 8357713
+2024-06-08 00:14:14 [verbose]: Requesting any changes since last known queue id 8357713
+2024-06-08 00:14:14 [verbose]: Song select updating selection with beatmap:c566e73c-9822-43ac-957d-d5bee1ba63d5 ruleset:osu
+2024-06-08 00:14:14 [verbose]: Song select changing beatmap from "Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]" to "633397 - this evil was warranted (Hinsvar) [hard]"
+2024-06-08 00:14:14 [verbose]: Game-wide working beatmap updated to 633397 - this evil was warranted (Hinsvar) [hard]
+2024-06-08 00:14:14 [verbose]: Song select working beatmap updated to 633397 - this evil was warranted (Hinsvar) [hard]
+2024-06-08 00:14:14 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:14 [verbose]: Requesting catch-up from 8357763
+2024-06-08 00:14:14 [verbose]: Requesting any changes since last known queue id 8357763
+2024-06-08 00:14:15 [verbose]: Requesting catch-up from 8357813
+2024-06-08 00:14:15 [verbose]: Requesting any changes since last known queue id 8357813
+2024-06-08 00:14:15 [verbose]: Requesting catch-up from 8357863
+2024-06-08 00:14:15 [verbose]: Requesting any changes since last known queue id 8357863
+2024-06-08 00:14:15 [verbose]: Requesting catch-up from 8357913
+2024-06-08 00:14:15 [verbose]: Requesting any changes since last known queue id 8357913
+2024-06-08 00:14:15 [verbose]: Song select updating selection with beatmap:9bbf8648-fb1d-4787-ad0d-d9504de7b1eb ruleset:osu
+2024-06-08 00:14:15 [verbose]: Song select changing beatmap from "633397 - this evil was warranted (Hinsvar) [hard]" to "Felt - Protagonists (Rue) [semaphore's Hard]"
+2024-06-08 00:14:15 [verbose]: Game-wide working beatmap updated to Felt - Protagonists (Rue) [semaphore's Hard]
+2024-06-08 00:14:15 [verbose]: Song select working beatmap updated to Felt - Protagonists (Rue) [semaphore's Hard]
+2024-06-08 00:14:15 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:15 [verbose]: Requesting catch-up from 8357963
+2024-06-08 00:14:15 [verbose]: Requesting any changes since last known queue id 8357963
+2024-06-08 00:14:15 [verbose]: Requesting catch-up from 8358013
+2024-06-08 00:14:15 [verbose]: Requesting any changes since last known queue id 8358013
+2024-06-08 00:14:16 [verbose]: Requesting catch-up from 8358063
+2024-06-08 00:14:16 [verbose]: Requesting any changes since last known queue id 8358063
+2024-06-08 00:14:16 [verbose]: Requesting catch-up from 8358113
+2024-06-08 00:14:16 [verbose]: Requesting any changes since last known queue id 8358113
+2024-06-08 00:14:16 [verbose]: Song select updating selection with beatmap:4c2309bc-a219-42aa-b23d-08b5c6f9881d ruleset:osu
+2024-06-08 00:14:16 [verbose]: Song select changing beatmap from "Felt - Protagonists (Rue) [semaphore's Hard]" to "Denzel Curry, Gizzle, Bren Joy - Dynasties & Dystopia (Mir) [Boppin's Hard]"
+2024-06-08 00:14:16 [verbose]: Game-wide working beatmap updated to Denzel Curry, Gizzle, Bren Joy - Dynasties & Dystopia (Mir) [Boppin's Hard]
+2024-06-08 00:14:16 [verbose]: Song select working beatmap updated to Denzel Curry, Gizzle, Bren Joy - Dynasties & Dystopia (Mir) [Boppin's Hard]
+2024-06-08 00:14:16 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:16 [verbose]: Requesting catch-up from 8358163
+2024-06-08 00:14:16 [verbose]: Requesting any changes since last known queue id 8358163
+2024-06-08 00:14:16 [verbose]: Requesting catch-up from 8358213
+2024-06-08 00:14:16 [verbose]: Requesting any changes since last known queue id 8358213
+2024-06-08 00:14:16 [verbose]: Requesting catch-up from 8358263
+2024-06-08 00:14:16 [verbose]: Requesting any changes since last known queue id 8358263
+2024-06-08 00:14:17 [verbose]: Requesting catch-up from 8358313
+2024-06-08 00:14:17 [verbose]: Requesting any changes since last known queue id 8358313
+2024-06-08 00:14:17 [verbose]: Requesting catch-up from 8358363
+2024-06-08 00:14:17 [verbose]: Requesting any changes since last known queue id 8358363
+2024-06-08 00:14:17 [verbose]: Requesting catch-up from 8358413
+2024-06-08 00:14:17 [verbose]: Requesting any changes since last known queue id 8358413
+2024-06-08 00:14:17 [verbose]: Requesting catch-up from 8358463
+2024-06-08 00:14:17 [verbose]: Requesting any changes since last known queue id 8358463
+2024-06-08 00:14:17 [verbose]: Song select updating selection with beatmap:9bbf8648-fb1d-4787-ad0d-d9504de7b1eb ruleset:osu
+2024-06-08 00:14:17 [verbose]: Song select changing beatmap from "Denzel Curry, Gizzle, Bren Joy - Dynasties & Dystopia (Mir) [Boppin's Hard]" to "Felt - Protagonists (Rue) [semaphore's Hard]"
+2024-06-08 00:14:17 [verbose]: Game-wide working beatmap updated to Felt - Protagonists (Rue) [semaphore's Hard]
+2024-06-08 00:14:17 [verbose]: Song select working beatmap updated to Felt - Protagonists (Rue) [semaphore's Hard]
+2024-06-08 00:14:17 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-08 00:14:17 [verbose]: Requesting catch-up from 8358513
+2024-06-08 00:14:17 [verbose]: Requesting any changes since last known queue id 8358513
+2024-06-08 00:14:18 [verbose]: Requesting catch-up from 8358563
+2024-06-08 00:14:18 [verbose]: Requesting any changes since last known queue id 8358563
+2024-06-08 00:14:18 [verbose]: Requesting catch-up from 8358613
+2024-06-08 00:14:18 [verbose]: Requesting any changes since last known queue id 8358613
+2024-06-08 00:14:18 [verbose]: Requesting catch-up from 8358663
+2024-06-08 00:14:18 [verbose]: Requesting any changes since last known queue id 8358663
+2024-06-08 00:14:18 [verbose]: Requesting catch-up from 8358713
+2024-06-08 00:14:18 [verbose]: Requesting any changes since last known queue id 8358713
+2024-06-08 00:14:18 [verbose]: Requesting catch-up from 8358763
+2024-06-08 00:14:18 [verbose]: Requesting any changes since last known queue id 8358763
+2024-06-08 00:14:19 [verbose]: Requesting catch-up from 8358813
+2024-06-08 00:14:19 [verbose]: Requesting any changes since last known queue id 8358813
+2024-06-08 00:14:19 [verbose]: Requesting catch-up from 8358863
+2024-06-08 00:14:19 [verbose]: Requesting any changes since last known queue id 8358863
+2024-06-08 00:14:19 [verbose]: Requesting catch-up from 8358913
+2024-06-08 00:14:19 [verbose]: Requesting any changes since last known queue id 8358913
+2024-06-08 00:14:19 [verbose]: Requesting catch-up from 8358963
+2024-06-08 00:14:19 [verbose]: Requesting any changes since last known queue id 8358963
+2024-06-08 00:14:19 [verbose]: Requesting catch-up from 8359013
+2024-06-08 00:14:19 [verbose]: Requesting any changes since last known queue id 8359013
+2024-06-08 00:14:19 [verbose]: Requesting catch-up from 8359063
+2024-06-08 00:14:19 [verbose]: Requesting any changes since last known queue id 8359063
+2024-06-08 00:14:20 [verbose]: Requesting catch-up from 8359113
+2024-06-08 00:14:20 [verbose]: Requesting any changes since last known queue id 8359113
+2024-06-08 00:14:20 [verbose]: Requesting catch-up from 8359163
+2024-06-08 00:14:20 [verbose]: Requesting any changes since last known queue id 8359163
+2024-06-08 00:14:20 [verbose]: Requesting catch-up from 8359213
+2024-06-08 00:14:20 [verbose]: Requesting any changes since last known queue id 8359213
+2024-06-08 00:14:20 [verbose]: Requesting catch-up from 8359263
+2024-06-08 00:14:20 [verbose]: Requesting any changes since last known queue id 8359263
+2024-06-08 00:14:20 [verbose]: Requesting catch-up from 8359313
+2024-06-08 00:14:20 [verbose]: Requesting any changes since last known queue id 8359313
+2024-06-08 00:14:21 [verbose]: Requesting catch-up from 8359363
+2024-06-08 00:14:21 [verbose]: Requesting any changes since last known queue id 8359363
+2024-06-08 00:14:21 [verbose]: Requesting catch-up from 8359413
+2024-06-08 00:14:21 [verbose]: Requesting any changes since last known queue id 8359413
+2024-06-08 00:14:21 [verbose]: Requesting catch-up from 8359463
+2024-06-08 00:14:21 [verbose]: Requesting any changes since last known queue id 8359463
+2024-06-08 00:14:21 [verbose]: Requesting catch-up from 8359513
+2024-06-08 00:14:21 [verbose]: Requesting any changes since last known queue id 8359513
+2024-06-08 00:14:21 [verbose]: Requesting catch-up from 8359563
+2024-06-08 00:14:21 [verbose]: Requesting any changes since last known queue id 8359563
+2024-06-08 00:14:22 [verbose]: Requesting catch-up from 8359613
+2024-06-08 00:14:22 [verbose]: Requesting any changes since last known queue id 8359613
+2024-06-08 00:14:22 [verbose]: Requesting catch-up from 8359663
+2024-06-08 00:14:22 [verbose]: Requesting any changes since last known queue id 8359663
+2024-06-08 00:14:22 [verbose]: Requesting catch-up from 8359713
+2024-06-08 00:14:22 [verbose]: Requesting any changes since last known queue id 8359713
+2024-06-08 00:14:22 [verbose]: Requesting catch-up from 8359763
+2024-06-08 00:14:22 [verbose]: Requesting any changes since last known queue id 8359763
+2024-06-08 00:14:22 [verbose]: Requesting catch-up from 8359813
+2024-06-08 00:14:22 [verbose]: Requesting any changes since last known queue id 8359813
+2024-06-08 00:14:23 [verbose]: Requesting catch-up from 8359863
+2024-06-08 00:14:23 [verbose]: Requesting any changes since last known queue id 8359863
+2024-06-08 00:14:23 [verbose]: Requesting catch-up from 8359913
+2024-06-08 00:14:23 [verbose]: Requesting any changes since last known queue id 8359913
+2024-06-08 00:14:23 [verbose]: Requesting catch-up from 8359963
+2024-06-08 00:14:23 [verbose]: Requesting any changes since last known queue id 8359963
+2024-06-08 00:14:23 [verbose]: Requesting catch-up from 8360013
+2024-06-08 00:14:23 [verbose]: Requesting any changes since last known queue id 8360013
+2024-06-08 00:14:24 [verbose]: Requesting catch-up from 8360063
+2024-06-08 00:14:24 [verbose]: Requesting any changes since last known queue id 8360063
+2024-06-08 00:14:24 [verbose]: Requesting catch-up from 8360113
+2024-06-08 00:14:24 [verbose]: Requesting any changes since last known queue id 8360113
+2024-06-08 00:14:24 [verbose]: Requesting catch-up from 8360163
+2024-06-08 00:14:24 [verbose]: Requesting any changes since last known queue id 8360163
+2024-06-08 00:14:24 [verbose]: Requesting catch-up from 8360213
+2024-06-08 00:14:24 [verbose]: Requesting any changes since last known queue id 8360213
+2024-06-08 00:14:25 [verbose]: Requesting catch-up from 8360263
+2024-06-08 00:14:25 [verbose]: Requesting any changes since last known queue id 8360263
+2024-06-08 00:14:25 [verbose]: Requesting catch-up from 8360313
+2024-06-08 00:14:25 [verbose]: Requesting any changes since last known queue id 8360313
+2024-06-08 00:14:25 [verbose]: Requesting catch-up from 8360338
+2024-06-08 00:14:25 [verbose]: Requesting any changes since last known queue id 8360338
+2024-06-08 00:14:25 [verbose]: Catch-up complete at 8360338
+2024-06-08 00:14:43 [verbose]: 📺 BackgroundScreenStack#114(depth:1) exit from BackgroundScreenBeatmap#510
+2024-06-08 00:14:43 [verbose]: 📺 BackgroundScreenStack#114(depth:1) resume to BackgroundScreenDefault#291
+2024-06-08 00:14:43 [verbose]: 📺 OsuScreenStack#612(depth:3) exit from PlaySongSelect#237
+2024-06-08 00:14:43 [verbose]: 📺 OsuScreenStack#612(depth:3) resume to MainMenu#639
+2024-06-08 00:14:43 [verbose]: decoupled ruleset transferred ("" -> "osu!")
+2024-06-08 00:14:43 [verbose]: 🌅 Global background change queued
+2024-06-08 00:14:43 [verbose]: 🌅 Global background change queued
+2024-06-08 00:14:43 [verbose]: ButtonSystem's state changed from EnteringMode to TopLevel
+2024-06-08 00:14:43 [verbose]: ButtonSystem's state changed from TopLevel to Initial
+2024-06-08 00:14:43 [verbose]: 🌅 Global background loading
+2024-06-08 00:14:44 [verbose]: ButtonSystem's state changed from Initial to Exit
+2024-06-08 00:14:44 [verbose]: 📺 OsuScreenStack#612(depth:2) exit from MainMenu#639
+2024-06-08 00:14:44 [verbose]: 📺 OsuScreenStack#612(depth:2) resume to IntroTriangles#559
+2024-06-08 00:14:47 [verbose]: 📺 BackgroundScreenStack#114(depth:0) exit from BackgroundScreenDefault#291
+2024-06-08 00:14:47 [verbose]: 📺 BackgroundScreenStack#114(depth:0) resume to [empty]
+2024-06-08 00:14:47 [verbose]: 📺 OsuScreenStack#612(depth:1) exit from IntroTriangles#559
+2024-06-08 00:14:47 [verbose]: 📺 OsuScreenStack#612(depth:1) resume to Loader#537
+2024-06-08 00:14:47 [verbose]: 📺 OsuScreenStack#612(depth:0) exit from Loader#537
+2024-06-08 00:14:47 [verbose]: 📺 OsuScreenStack#612(depth:0) resume to [empty]
+2024-06-08 00:14:47 [verbose]: Host execution state changed to Stopping
+2024-06-08 00:14:47 [verbose]: Host execution state changed to Stopped

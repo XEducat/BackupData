@@ -1,0 +1,355 @@
+----------------------------------------------------------
+runtime Log for Varof (LogLevel: Verbose)
+Running osu 2024.521.2.0 on .NET 8.0.5
+Environment: Windows (Microsoft Windows NT 10.0.22631.0), 8 cores 
+----------------------------------------------------------
+2024-06-14 02:42:16 [verbose]: Threaded optimizations set failed!
+2024-06-14 02:42:16 [verbose]: Starting legacy IPC provider...
+2024-06-14 02:42:17 [verbose]: 🖼️ Configuration renderer choice: Automatic
+2024-06-14 02:42:17 [verbose]: 🖼️ Renderer fallback order: [ Direct3D 11, Direct3D 11 (Experimental), OpenGL, Vulkan (Experimental) ]
+2024-06-14 02:42:17 [verbose]: 🖼️ Initialising "Veldrid" renderer with "Direct3D11" surface
+2024-06-14 02:42:17 [verbose]: Updated display mode to desktop resolution: 1920x1080@75, SDL_PIXELFORMAT_RGB888
+2024-06-14 02:42:17 [verbose]: Direct3D 11 Initialized
+2024-06-14 02:42:17 [verbose]: Direct3D 11 Feature Level:           11.1
+2024-06-14 02:42:17 [verbose]: Direct3D 11 Adapter:                 NVIDIA GeForce GTX 1650
+2024-06-14 02:42:17 [verbose]: Direct3D 11 Dedicated Video Memory:  3937 MB
+2024-06-14 02:42:17 [verbose]: Direct3D 11 Dedicated System Memory: 0 MB
+2024-06-14 02:42:17 [verbose]: Direct3D 11 Shared System Memory:    12221 MB
+2024-06-14 02:42:17 [verbose]: UseStructuredBuffers: True
+2024-06-14 02:42:17 [verbose]: 🖼️ Renderer initialised!
+2024-06-14 02:42:17 [verbose]: Host execution state changed to Running
+2024-06-14 02:42:17 [verbose]: Execution mode changed to MultiThreaded
+2024-06-14 02:42:17 [verbose]: 🔈 BASS initialised
+2024-06-14 02:42:17 [verbose]: BASS version:           2.4.16.7
+2024-06-14 02:42:17 [verbose]: BASS FX version:        2.4.12.6
+2024-06-14 02:42:17 [verbose]: BASS MIX version:       2.4.11.1
+2024-06-14 02:42:17 [verbose]: Device:                 Default
+2024-06-14 02:42:17 [verbose]: Driver:
+2024-06-14 02:42:17 [verbose]: Update period:          5 ms
+2024-06-14 02:42:17 [verbose]: Device buffer length:   10 ms
+2024-06-14 02:42:17 [verbose]: Playback buffer length: 100 ms
+2024-06-14 02:42:17 [verbose]: 🔈 BASS initialised
+2024-06-14 02:42:17 [verbose]: BASS version:           2.4.16.7
+2024-06-14 02:42:17 [verbose]: BASS FX version:        2.4.12.6
+2024-06-14 02:42:17 [verbose]: BASS MIX version:       2.4.11.1
+2024-06-14 02:42:17 [verbose]: Device:                 Default
+2024-06-14 02:42:17 [verbose]: Driver:
+2024-06-14 02:42:17 [verbose]: Update period:          5 ms
+2024-06-14 02:42:17 [verbose]: Device buffer length:   10 ms
+2024-06-14 02:42:17 [verbose]: Playback buffer length: 100 ms
+2024-06-14 02:42:17 [verbose]: Beginning realm file store cleanup
+2024-06-14 02:42:17 [verbose]: Finished realm file store cleanup (0 of 0 deleted)
+2024-06-14 02:42:17 [verbose]: Opened realm "C:\Users\Varof\AppData\Roaming\osu\client.realm" at version 41
+2024-06-14 02:42:17 [verbose]: 🖍️ Shader Texture2D/Texture loaded from cache!
+2024-06-14 02:42:17 [verbose]: 🖍️ Shader Texture2D/CircularProgress loaded from cache!
+2024-06-14 02:42:18 [verbose]: Updated display mode to fullscreen resolution: 1920x1080@75, SDL_PIXELFORMAT_RGB888
+2024-06-14 02:42:18 [verbose]: Loading FPSCounter...
+2024-06-14 02:42:18 [verbose]: Loaded FPSCounter!
+2024-06-14 02:42:18 [verbose]: Loading OsuLogo...
+2024-06-14 02:42:18 [verbose]: Texture -'s upload queue is large (100)
+2024-06-14 02:42:18 [verbose]: 🖍️ Shader Texture2D/TriangleBorder loaded from cache!
+2024-06-14 02:42:18 [verbose]: Loaded OsuLogo!
+2024-06-14 02:42:18 [verbose]: Loading UserStatisticsWatcher...
+2024-06-14 02:42:18 [verbose]: 📺 OsuScreenStack#457(depth:1) loading Loader#585
+2024-06-14 02:42:18 [verbose]: Loaded UserStatisticsWatcher!
+2024-06-14 02:42:18 [verbose]: Loading Toolbar...
+2024-06-14 02:42:18 [verbose]: 📺 OsuScreenStack#457(depth:1) entered Loader#585
+2024-06-14 02:42:18 [verbose]: 🖍️ Shader Texture2D/Blur loaded from cache!
+2024-06-14 02:42:18 [verbose]: 🖍️ Shader CursorTrail/Texture loaded from cache!
+2024-06-14 02:42:18 [verbose]: 🖍️ Shader Texture3D/Texture loaded from cache!
+2024-06-14 02:42:18 [verbose]: Texture -'s upload queue is large (200)
+2024-06-14 02:42:18 [verbose]: Texture -'s upload queue is large (300)
+2024-06-14 02:42:18 [verbose]: Texture -'s upload queue is large (400)
+2024-06-14 02:42:18 [verbose]: Texture -'s upload queue is large (500)
+2024-06-14 02:42:18 [verbose]: Loaded Toolbar!
+2024-06-14 02:42:18 [verbose]: Loading VolumeOverlay...
+2024-06-14 02:42:18 [verbose]: Texture -'s upload queue is large (600)
+2024-06-14 02:42:18 [verbose]: Loaded VolumeOverlay!
+2024-06-14 02:42:18 [verbose]: Loading OnScreenDisplay...
+2024-06-14 02:42:18 [verbose]: Texture -'s upload queue is large (700)
+2024-06-14 02:42:18 [verbose]: Texture 's upload queue is large (600)
+2024-06-14 02:42:18 [verbose]: Texture 's upload queue is large (600)
+2024-06-14 02:42:18 [verbose]: Texture 's upload queue is large (600)
+2024-06-14 02:42:18 [verbose]: Texture 's upload queue is large (600)
+2024-06-14 02:42:18 [verbose]: Texture 's upload queue is large (600)
+2024-06-14 02:42:18 [verbose]: Texture 's upload queue is large (600)
+2024-06-14 02:42:18 [verbose]: Texture 's upload queue is large (600)
+2024-06-14 02:42:18 [verbose]: Loaded OnScreenDisplay!
+2024-06-14 02:42:18 [verbose]: Loading NotificationOverlay...
+2024-06-14 02:42:18 [verbose]: Texture 's upload queue is large (100)
+2024-06-14 02:42:18 [verbose]: Loaded NotificationOverlay!
+2024-06-14 02:42:18 [verbose]: Loading LegacyImportManager...
+2024-06-14 02:42:18 [verbose]: Loaded LegacyImportManager!
+2024-06-14 02:42:18 [verbose]: Loading ScreenshotManager...
+2024-06-14 02:42:18 [verbose]: Loaded ScreenshotManager!
+2024-06-14 02:42:18 [verbose]: Loading SquirrelUpdateManager...
+2024-06-14 02:42:18 [verbose]: Loaded SquirrelUpdateManager!
+2024-06-14 02:42:18 [verbose]: Loading FirstRunSetupOverlay...
+2024-06-14 02:42:18 [verbose]: Texture 's upload queue is large (200)
+2024-06-14 02:42:18 [verbose]: Loaded FirstRunSetupOverlay!
+2024-06-14 02:42:18 [verbose]: Loading ManageCollectionsDialog...
+2024-06-14 02:42:18 [verbose]: Loaded ManageCollectionsDialog!
+2024-06-14 02:42:18 [verbose]: Loading BeatmapListingOverlay...
+2024-06-14 02:42:18 [verbose]: Texture -'s upload queue is large (100)
+2024-06-14 02:42:18 [verbose]: Loaded BeatmapListingOverlay!
+2024-06-14 02:42:18 [verbose]: Loading DashboardOverlay...
+2024-06-14 02:42:18 [verbose]: Loaded DashboardOverlay!
+2024-06-14 02:42:18 [verbose]: Loading NewsOverlay...
+2024-06-14 02:42:18 [verbose]: Loaded NewsOverlay!
+2024-06-14 02:42:18 [verbose]: Loading RankingsOverlay...
+2024-06-14 02:42:18 [verbose]: Loaded RankingsOverlay!
+2024-06-14 02:42:18 [verbose]: Loading ChannelManager...
+2024-06-14 02:42:18 [verbose]: Loaded ChannelManager!
+2024-06-14 02:42:18 [verbose]: Loading ChatOverlay...
+2024-06-14 02:42:18 [verbose]: Loaded ChatOverlay!
+2024-06-14 02:42:18 [verbose]: Loading MessageNotifier...
+2024-06-14 02:42:18 [verbose]: Loaded MessageNotifier!
+2024-06-14 02:42:18 [verbose]: Loading SettingsOverlay...
+2024-06-14 02:42:19 [verbose]: Loaded SettingsOverlay!
+2024-06-14 02:42:19 [verbose]: Loading ChangelogOverlay...
+2024-06-14 02:42:19 [verbose]: Loaded ChangelogOverlay!
+2024-06-14 02:42:19 [verbose]: Loading UserProfileOverlay...
+2024-06-14 02:42:19 [verbose]: Loaded UserProfileOverlay!
+2024-06-14 02:42:19 [verbose]: Loading BeatmapSetOverlay...
+2024-06-14 02:42:19 [verbose]: Loaded BeatmapSetOverlay!
+2024-06-14 02:42:19 [verbose]: Loading WikiOverlay...
+2024-06-14 02:42:19 [verbose]: Loaded WikiOverlay!
+2024-06-14 02:42:19 [verbose]: Loading SkinEditorOverlay...
+2024-06-14 02:42:19 [verbose]: Loaded SkinEditorOverlay!
+2024-06-14 02:42:19 [verbose]: Loading LoginOverlay...
+2024-06-14 02:42:19 [verbose]: Loaded LoginOverlay!
+2024-06-14 02:42:19 [verbose]: Loading NowPlayingOverlay...
+2024-06-14 02:42:19 [verbose]: Loaded NowPlayingOverlay!
+2024-06-14 02:42:19 [verbose]: Loading AccountCreationOverlay...
+2024-06-14 02:42:19 [verbose]: 📺 ScreenStack#395(depth:1) scheduling push ScreenWelcome#324
+2024-06-14 02:42:19 [verbose]: Loaded AccountCreationOverlay!
+2024-06-14 02:42:19 [verbose]: Loading DialogOverlay...
+2024-06-14 02:42:19 [verbose]: Loaded DialogOverlay!
+2024-06-14 02:42:19 [verbose]: Loading MedalOverlay...
+2024-06-14 02:42:19 [verbose]: Loaded MedalOverlay!
+2024-06-14 02:42:19 [verbose]: Loading BackgroundDataStoreProcessor...
+2024-06-14 02:42:19 [verbose]: Loaded BackgroundDataStoreProcessor!
+2024-06-14 02:42:19 [verbose]: Beginning background data store processing..
+2024-06-14 02:42:19 [verbose]: Querying for beatmap sets to reprocess...
+2024-06-14 02:42:19 [verbose]: Querying for beatmaps with missing hitobject counts to reprocess...
+2024-06-14 02:42:19 [verbose]: Querying for scores to reprocess...
+2024-06-14 02:42:19 [verbose]: Querying for scores that need total score conversion...
+2024-06-14 02:42:19 [verbose]: Found 0 scores which require total score conversion.
+2024-06-14 02:42:19 [verbose]: Querying for scores that need rank upgrades...
+2024-06-14 02:42:19 [verbose]: Found 0 scores which require rank upgrades.
+2024-06-14 02:42:19 [verbose]: Finished background data store processing!
+2024-06-14 02:42:19 [verbose]: 📺 OsuScreenStack#457(depth:1) suspended Loader#585 (waiting on IntroTriangles#494)
+2024-06-14 02:42:19 [verbose]: 📺 OsuScreenStack#457(depth:2) entered IntroTriangles#494
+2024-06-14 02:42:19 [verbose]: 📺 BackgroundScreenStack#445(depth:1) loading BackgroundScreenDefault#603
+2024-06-14 02:42:19 [verbose]: Game-wide working beatmap updated to cYsmix - triangles (peppy) [peppy]
+2024-06-14 02:42:19 [verbose]: 📺 BackgroundScreenStack#445(depth:1) entered BackgroundScreenDefault#603
+2024-06-14 02:42:19 [verbose]: 🌅 Global background change queued
+2024-06-14 02:42:19 [verbose]: 🖍️ Shader LogoAnimation/LogoAnimation loaded from cache!
+2024-06-14 02:42:19 [verbose]: decoupled ruleset transferred ("" -> "osu!")
+2024-06-14 02:42:19 [verbose]: Texture 's upload queue is large (100)
+2024-06-14 02:42:19 [verbose]: Texture 's upload queue is large (200)
+2024-06-14 02:42:19 [verbose]: Texture 's upload queue is large (300)
+2024-06-14 02:42:19 [verbose]: Texture 's upload queue is large (100)
+2024-06-14 02:42:19 [verbose]: Current channel changed to hHATEe
+2024-06-14 02:42:19 [verbose]: 🌅 Global background loading
+2024-06-14 02:42:19 [verbose]: Requesting catch-up from 8374040
+2024-06-14 02:42:19 [verbose]: Requesting any changes since last known queue id 8374040
+2024-06-14 02:42:20 [verbose]: Requesting catch-up from 8374041
+2024-06-14 02:42:20 [verbose]: Requesting any changes since last known queue id 8374041
+2024-06-14 02:42:20 [verbose]: 🌅 Global background change queued
+2024-06-14 02:42:20 [verbose]: Catch-up complete at 8374041
+2024-06-14 02:42:20 [verbose]: 🌅 Global background loading
+2024-06-14 02:42:22 [verbose]: 📺 OsuScreenStack#457(depth:2) suspended IntroTriangles#494 (waiting on MainMenu#381)
+2024-06-14 02:42:22 [verbose]: 📺 OsuScreenStack#457(depth:3) entered MainMenu#381
+2024-06-14 02:42:23 [verbose]: ButtonSystem's state changed from Initial to TopLevel
+2024-06-14 02:42:24 [verbose]: ButtonSystem's state changed from TopLevel to Play
+2024-06-14 02:42:24 [verbose]: 📺 OsuScreenStack#457(depth:3) suspended MainMenu#381 (waiting on PlaySongSelect#237)
+2024-06-14 02:42:24 [verbose]: ButtonSystem's state changed from Play to EnteringMode
+2024-06-14 02:42:24 [verbose]: 📺 OsuScreenStack#457(depth:4) entered PlaySongSelect#237
+2024-06-14 02:42:24 [verbose]: 📺 BackgroundScreenStack#445(depth:2) loading BackgroundScreenBeatmap#580
+2024-06-14 02:42:24 [verbose]: 📺 BackgroundScreenStack#445(depth:2) suspended BackgroundScreenDefault#603 (waiting on BackgroundScreenBeatmap#580)
+2024-06-14 02:42:24 [verbose]: 📺 BackgroundScreenStack#445(depth:2) entered BackgroundScreenBeatmap#580
+2024-06-14 02:42:24 [verbose]: Song select updating selection with beatmap:b5d5756c-9c47-4768-8f0c-f49c60d3242b ruleset:osu
+2024-06-14 02:42:24 [verbose]: Song select changing beatmap from "cYsmix - triangles (peppy) [peppy]" to "Soleily - Renatus (Gamu) [Hard]"
+2024-06-14 02:42:24 [verbose]: Game-wide working beatmap updated to Soleily - Renatus (Gamu) [Hard]
+2024-06-14 02:42:24 [verbose]: Song select working beatmap updated to Soleily - Renatus (Gamu) [Hard]
+2024-06-14 02:42:24 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:24 [verbose]: 🌅 Global background change queued
+2024-06-14 02:42:24 [verbose]: Texture 's upload queue is large (100)
+2024-06-14 02:42:26 [verbose]: Song select updating selection with beatmap:c3f921da-f9cf-48c9-9fe5-0992d76f6e01 ruleset:osu
+2024-06-14 02:42:26 [verbose]: Song select changing beatmap from "Soleily - Renatus (Gamu) [Hard]" to "Mili - Utopiosphere -Platonism- (celerih) [Nemis' Hard]"
+2024-06-14 02:42:26 [verbose]: Game-wide working beatmap updated to Mili - Utopiosphere -Platonism- (celerih) [Nemis' Hard]
+2024-06-14 02:42:26 [verbose]: Song select working beatmap updated to Mili - Utopiosphere -Platonism- (celerih) [Nemis' Hard]
+2024-06-14 02:42:26 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:27 [verbose]: Song select updating selection with beatmap:45c17a92-80e1-4d92-ae71-8e0959013893 ruleset:osu
+2024-06-14 02:42:27 [verbose]: Song select changing beatmap from "Mili - Utopiosphere -Platonism- (celerih) [Nemis' Hard]" to "UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]"
+2024-06-14 02:42:27 [verbose]: Game-wide working beatmap updated to UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]
+2024-06-14 02:42:27 [verbose]: Song select working beatmap updated to UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]
+2024-06-14 02:42:27 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:28 [verbose]: Song select updating selection with beatmap:561444b1-8cac-440b-942a-b8e4ba5d4498 ruleset:osu
+2024-06-14 02:42:28 [verbose]: Song select changing beatmap from "UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]" to "UNDEAD CORPORATION - Datura (Seto Kousuke) [Hard]"
+2024-06-14 02:42:28 [verbose]: Game-wide working beatmap updated to UNDEAD CORPORATION - Datura (Seto Kousuke) [Hard]
+2024-06-14 02:42:28 [verbose]: Song select working beatmap updated to UNDEAD CORPORATION - Datura (Seto Kousuke) [Hard]
+2024-06-14 02:42:28 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:30 [verbose]: Song select updating selection with beatmap:a02462a3-9883-40d6-883f-ec91712a4577 ruleset:osu
+2024-06-14 02:42:30 [verbose]: Song select changing beatmap from "UNDEAD CORPORATION - Datura (Seto Kousuke) [Hard]" to "nobodyknows+ - Hero's Come Back!! (TV Size) (-Lian-) [Hard]"
+2024-06-14 02:42:30 [verbose]: Game-wide working beatmap updated to nobodyknows+ - Hero's Come Back!! (TV Size) (-Lian-) [Hard]
+2024-06-14 02:42:30 [verbose]: Song select working beatmap updated to nobodyknows+ - Hero's Come Back!! (TV Size) (-Lian-) [Hard]
+2024-06-14 02:42:30 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:31 [verbose]: Song select updating selection with beatmap:ea884f4f-69e0-4cb0-852a-d8bf2922fedf ruleset:osu
+2024-06-14 02:42:31 [verbose]: Song select changing beatmap from "nobodyknows+ - Hero's Come Back!! (TV Size) (-Lian-) [Hard]" to "Ito Kanako - fake me (samfree's Science Adventure Dance Remix) (Sped Up Ver.) (Nattu) [stream me]"
+2024-06-14 02:42:31 [verbose]: Game-wide working beatmap updated to Ito Kanako - fake me (samfree's Science Adventure Dance Remix) (Sped Up Ver.) (Nattu) [stream me]
+2024-06-14 02:42:31 [verbose]: Song select working beatmap updated to Ito Kanako - fake me (samfree's Science Adventure Dance Remix) (Sped Up Ver.) (Nattu) [stream me]
+2024-06-14 02:42:31 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:33 [verbose]: Song select updating selection with beatmap:9a99fec5-e941-48b2-9df9-2d5d1d1ecee3 ruleset:osu
+2024-06-14 02:42:33 [verbose]: Song select changing beatmap from "Ito Kanako - fake me (samfree's Science Adventure Dance Remix) (Sped Up Ver.) (Nattu) [stream me]" to "Shiro Sagisu - Clavar La Espada (Martis_ltu) [Insane]"
+2024-06-14 02:42:33 [verbose]: Game-wide working beatmap updated to Shiro Sagisu - Clavar La Espada (Martis_ltu) [Insane]
+2024-06-14 02:42:33 [verbose]: Song select working beatmap updated to Shiro Sagisu - Clavar La Espada (Martis_ltu) [Insane]
+2024-06-14 02:42:33 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:35 [verbose]: Song select updating selection with beatmap:f40e054d-c066-4805-8670-f0cd8dedf672 ruleset:osu
+2024-06-14 02:42:35 [verbose]: Song select changing beatmap from "Shiro Sagisu - Clavar La Espada (Martis_ltu) [Insane]" to "Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]"
+2024-06-14 02:42:35 [verbose]: Game-wide working beatmap updated to Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]
+2024-06-14 02:42:35 [verbose]: Song select working beatmap updated to Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]
+2024-06-14 02:42:35 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:39 [verbose]: Song select updating selection with beatmap:c8ab6068-cc58-417f-8bea-35e4777a7892 ruleset:osu
+2024-06-14 02:42:39 [verbose]: Song select changing beatmap from "Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]" to "Thaehan - Never Give Up (verychill) [Normal]"
+2024-06-14 02:42:39 [verbose]: Game-wide working beatmap updated to Thaehan - Never Give Up (verychill) [Normal]
+2024-06-14 02:42:39 [verbose]: Song select working beatmap updated to Thaehan - Never Give Up (verychill) [Normal]
+2024-06-14 02:42:39 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:41 [verbose]: Song select updating selection with beatmap:038f249b-7634-4781-a63d-386f2aa512e3 ruleset:osu
+2024-06-14 02:42:41 [verbose]: Song select changing beatmap from "Thaehan - Never Give Up (verychill) [Normal]" to "Omoi - Snow Drive (Yales) [Hard]"
+2024-06-14 02:42:41 [verbose]: Game-wide working beatmap updated to Omoi - Snow Drive (Yales) [Hard]
+2024-06-14 02:42:41 [verbose]: Song select working beatmap updated to Omoi - Snow Drive (Yales) [Hard]
+2024-06-14 02:42:41 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:42 [verbose]: Song select updating selection with beatmap:4c2309bc-a219-42aa-b23d-08b5c6f9881d ruleset:osu
+2024-06-14 02:42:42 [verbose]: Song select changing beatmap from "Omoi - Snow Drive (Yales) [Hard]" to "Denzel Curry, Gizzle, Bren Joy - Dynasties & Dystopia (Mir) [Boppin's Hard]"
+2024-06-14 02:42:42 [verbose]: Game-wide working beatmap updated to Denzel Curry, Gizzle, Bren Joy - Dynasties & Dystopia (Mir) [Boppin's Hard]
+2024-06-14 02:42:42 [verbose]: Song select working beatmap updated to Denzel Curry, Gizzle, Bren Joy - Dynasties & Dystopia (Mir) [Boppin's Hard]
+2024-06-14 02:42:42 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:45 [verbose]: Song select updating selection with beatmap:4a281e56-e973-41c4-b4a0-99e6a6f6036b ruleset:osu
+2024-06-14 02:42:45 [verbose]: Song select changing beatmap from "Denzel Curry, Gizzle, Bren Joy - Dynasties & Dystopia (Mir) [Boppin's Hard]" to "UNDEAD CORPORATION - Under the scarlet sky pt. 2 (Seto Kousuke) [Hard]"
+2024-06-14 02:42:45 [verbose]: Game-wide working beatmap updated to UNDEAD CORPORATION - Under the scarlet sky pt. 2 (Seto Kousuke) [Hard]
+2024-06-14 02:42:45 [verbose]: Song select working beatmap updated to UNDEAD CORPORATION - Under the scarlet sky pt. 2 (Seto Kousuke) [Hard]
+2024-06-14 02:42:45 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:47 [verbose]: Received beatmap updates 1 updates with last id 8374042
+2024-06-14 02:42:48 [verbose]: Song select updating selection with beatmap:c566e73c-9822-43ac-957d-d5bee1ba63d5 ruleset:osu
+2024-06-14 02:42:48 [verbose]: Song select changing beatmap from "UNDEAD CORPORATION - Under the scarlet sky pt. 2 (Seto Kousuke) [Hard]" to "633397 - this evil was warranted (Hinsvar) [hard]"
+2024-06-14 02:42:48 [verbose]: Game-wide working beatmap updated to 633397 - this evil was warranted (Hinsvar) [hard]
+2024-06-14 02:42:48 [verbose]: Song select working beatmap updated to 633397 - this evil was warranted (Hinsvar) [hard]
+2024-06-14 02:42:48 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:49 [verbose]: Song select updating selection with beatmap:d1c69467-121c-444b-ad0b-06ef805d3111 ruleset:osu
+2024-06-14 02:42:49 [verbose]: Song select changing beatmap from "633397 - this evil was warranted (Hinsvar) [hard]" to "Aethoro - Inertia Split (LMT) [Hard]"
+2024-06-14 02:42:49 [verbose]: Game-wide working beatmap updated to Aethoro - Inertia Split (LMT) [Hard]
+2024-06-14 02:42:49 [verbose]: Song select working beatmap updated to Aethoro - Inertia Split (LMT) [Hard]
+2024-06-14 02:42:49 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:51 [verbose]: Song select updating selection with beatmap:4a281e56-e973-41c4-b4a0-99e6a6f6036b ruleset:osu
+2024-06-14 02:42:51 [verbose]: Song select changing beatmap from "Aethoro - Inertia Split (LMT) [Hard]" to "UNDEAD CORPORATION - Under the scarlet sky pt. 2 (Seto Kousuke) [Hard]"
+2024-06-14 02:42:51 [verbose]: Game-wide working beatmap updated to UNDEAD CORPORATION - Under the scarlet sky pt. 2 (Seto Kousuke) [Hard]
+2024-06-14 02:42:51 [verbose]: Song select working beatmap updated to UNDEAD CORPORATION - Under the scarlet sky pt. 2 (Seto Kousuke) [Hard]
+2024-06-14 02:42:51 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:52 [verbose]: Song select updating selection with beatmap:f40e054d-c066-4805-8670-f0cd8dedf672 ruleset:osu
+2024-06-14 02:42:52 [verbose]: Song select changing beatmap from "UNDEAD CORPORATION - Under the scarlet sky pt. 2 (Seto Kousuke) [Hard]" to "Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]"
+2024-06-14 02:42:52 [verbose]: Game-wide working beatmap updated to Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]
+2024-06-14 02:42:52 [verbose]: Song select working beatmap updated to Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]
+2024-06-14 02:42:52 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:53 [verbose]: Song select updating selection with beatmap:7c3bbdf4-b4e8-4cb8-a3dc-c099ec20c9f5 ruleset:osu
+2024-06-14 02:42:53 [verbose]: Song select changing beatmap from "Rat Boy & IBDY - WHO'S READY FOR TOMORROW (O K U) [KITTY'S HARD]" to "DAZBEE - Scarlet (TV Size) (Xiirn) [kitty's Hard]"
+2024-06-14 02:42:53 [verbose]: Game-wide working beatmap updated to DAZBEE - Scarlet (TV Size) (Xiirn) [kitty's Hard]
+2024-06-14 02:42:53 [verbose]: Song select working beatmap updated to DAZBEE - Scarlet (TV Size) (Xiirn) [kitty's Hard]
+2024-06-14 02:42:53 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:54 [verbose]: Song select updating selection with beatmap:f67d1676-b534-4eea-b890-d0f4a7045ba0 ruleset:osu
+2024-06-14 02:42:54 [verbose]: Song select changing beatmap from "DAZBEE - Scarlet (TV Size) (Xiirn) [kitty's Hard]" to "Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]"
+2024-06-14 02:42:54 [verbose]: Game-wide working beatmap updated to Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]
+2024-06-14 02:42:54 [verbose]: Song select working beatmap updated to Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]
+2024-06-14 02:42:54 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:54 [verbose]: Song select updating selection with beatmap:f78679ba-7238-4902-a877-a0194c98c261 ruleset:osu
+2024-06-14 02:42:54 [verbose]: Song select changing beatmap from "Rocco Minichiello - STAND UP BE STRONG (From BLEACH) | Original Metal Cover (Suiiiman) [Mugetsu]" to "Omoi - Hey William (New Translation) (Saoji) [Noffy's Hard]"
+2024-06-14 02:42:54 [verbose]: Game-wide working beatmap updated to Omoi - Hey William (New Translation) (Saoji) [Noffy's Hard]
+2024-06-14 02:42:54 [verbose]: Song select working beatmap updated to Omoi - Hey William (New Translation) (Saoji) [Noffy's Hard]
+2024-06-14 02:42:54 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:56 [verbose]: Song select updating selection with beatmap:ea884f4f-69e0-4cb0-852a-d8bf2922fedf ruleset:osu
+2024-06-14 02:42:56 [verbose]: Song select changing beatmap from "Omoi - Hey William (New Translation) (Saoji) [Noffy's Hard]" to "Ito Kanako - fake me (samfree's Science Adventure Dance Remix) (Sped Up Ver.) (Nattu) [stream me]"
+2024-06-14 02:42:56 [verbose]: Game-wide working beatmap updated to Ito Kanako - fake me (samfree's Science Adventure Dance Remix) (Sped Up Ver.) (Nattu) [stream me]
+2024-06-14 02:42:56 [verbose]: Song select working beatmap updated to Ito Kanako - fake me (samfree's Science Adventure Dance Remix) (Sped Up Ver.) (Nattu) [stream me]
+2024-06-14 02:42:56 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:57 [verbose]: Song select updating selection with beatmap:85b05794-4b6a-44c1-ba12-cd6d3b9ef401 ruleset:osu
+2024-06-14 02:42:57 [verbose]: Song select changing beatmap from "Ito Kanako - fake me (samfree's Science Adventure Dance Remix) (Sped Up Ver.) (Nattu) [stream me]" to "Kudou Chitose - CHO-DARI- (SMOKELIND) [ELI'S HARD]"
+2024-06-14 02:42:57 [verbose]: Game-wide working beatmap updated to Kudou Chitose - CHO-DARI- (SMOKELIND) [ELI'S HARD]
+2024-06-14 02:42:57 [verbose]: Song select working beatmap updated to Kudou Chitose - CHO-DARI- (SMOKELIND) [ELI'S HARD]
+2024-06-14 02:42:57 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:58 [verbose]: Song select updating selection with beatmap:87efd097-3b98-44a9-abcf-ce6c35a1e5ac ruleset:osu
+2024-06-14 02:42:58 [verbose]: Song select changing beatmap from "Kudou Chitose - CHO-DARI- (SMOKELIND) [ELI'S HARD]" to "Don Toliver - No Idea (jamesjan3) [Hard]"
+2024-06-14 02:42:58 [verbose]: Game-wide working beatmap updated to Don Toliver - No Idea (jamesjan3) [Hard]
+2024-06-14 02:42:58 [verbose]: Song select working beatmap updated to Don Toliver - No Idea (jamesjan3) [Hard]
+2024-06-14 02:42:58 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:58 [verbose]: Song select updating selection with beatmap:b5d5756c-9c47-4768-8f0c-f49c60d3242b ruleset:osu
+2024-06-14 02:42:58 [verbose]: Song select changing beatmap from "Don Toliver - No Idea (jamesjan3) [Hard]" to "Soleily - Renatus (Gamu) [Hard]"
+2024-06-14 02:42:58 [verbose]: Game-wide working beatmap updated to Soleily - Renatus (Gamu) [Hard]
+2024-06-14 02:42:58 [verbose]: Song select working beatmap updated to Soleily - Renatus (Gamu) [Hard]
+2024-06-14 02:42:58 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:42:59 [verbose]: Song select updating selection with beatmap:7d0383e0-e0a4-40f4-ba10-645d98e79234 ruleset:osu
+2024-06-14 02:42:59 [verbose]: Song select changing beatmap from "Soleily - Renatus (Gamu) [Hard]" to "Gorillaz - Dare (AnKawaii) [DarE]"
+2024-06-14 02:42:59 [verbose]: Game-wide working beatmap updated to Gorillaz - Dare (AnKawaii) [DarE]
+2024-06-14 02:42:59 [verbose]: Song select working beatmap updated to Gorillaz - Dare (AnKawaii) [DarE]
+2024-06-14 02:42:59 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:43:00 [verbose]: Song select updating selection with beatmap:c3f921da-f9cf-48c9-9fe5-0992d76f6e01 ruleset:osu
+2024-06-14 02:43:00 [verbose]: Song select changing beatmap from "Gorillaz - Dare (AnKawaii) [DarE]" to "Mili - Utopiosphere -Platonism- (celerih) [Nemis' Hard]"
+2024-06-14 02:43:00 [verbose]: Game-wide working beatmap updated to Mili - Utopiosphere -Platonism- (celerih) [Nemis' Hard]
+2024-06-14 02:43:00 [verbose]: Song select working beatmap updated to Mili - Utopiosphere -Platonism- (celerih) [Nemis' Hard]
+2024-06-14 02:43:00 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:43:01 [verbose]: Song select updating selection with beatmap:561444b1-8cac-440b-942a-b8e4ba5d4498 ruleset:osu
+2024-06-14 02:43:01 [verbose]: Song select changing beatmap from "Mili - Utopiosphere -Platonism- (celerih) [Nemis' Hard]" to "UNDEAD CORPORATION - Datura (Seto Kousuke) [Hard]"
+2024-06-14 02:43:01 [verbose]: Game-wide working beatmap updated to UNDEAD CORPORATION - Datura (Seto Kousuke) [Hard]
+2024-06-14 02:43:01 [verbose]: Song select working beatmap updated to UNDEAD CORPORATION - Datura (Seto Kousuke) [Hard]
+2024-06-14 02:43:01 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:43:01 [verbose]: Song select updating selection with beatmap:45c17a92-80e1-4d92-ae71-8e0959013893 ruleset:osu
+2024-06-14 02:43:01 [verbose]: Song select changing beatmap from "UNDEAD CORPORATION - Datura (Seto Kousuke) [Hard]" to "UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]"
+2024-06-14 02:43:01 [verbose]: Game-wide working beatmap updated to UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]
+2024-06-14 02:43:01 [verbose]: Song select working beatmap updated to UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]
+2024-06-14 02:43:01 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:43:02 [verbose]: Song select updating selection with beatmap:44f92f0b-12a7-4744-bdd1-8edd0e0bebca ruleset:osu
+2024-06-14 02:43:02 [verbose]: Song select changing beatmap from "UNDEAD CORPORATION - Adore Your Pain (Zelq) [Trynna's Hard]" to "UNDEAD CORPORATION - Everything will freeze (Ekoro) [Hard]"
+2024-06-14 02:43:02 [verbose]: Game-wide working beatmap updated to UNDEAD CORPORATION - Everything will freeze (Ekoro) [Hard]
+2024-06-14 02:43:02 [verbose]: Song select working beatmap updated to UNDEAD CORPORATION - Everything will freeze (Ekoro) [Hard]
+2024-06-14 02:43:02 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:43:11 [verbose]: Song select updating selection with beatmap:9bbf8648-fb1d-4787-ad0d-d9504de7b1eb ruleset:osu
+2024-06-14 02:43:11 [verbose]: Song select changing beatmap from "UNDEAD CORPORATION - Everything will freeze (Ekoro) [Hard]" to "Felt - Protagonists (Rue) [semaphore's Hard]"
+2024-06-14 02:43:11 [verbose]: Game-wide working beatmap updated to Felt - Protagonists (Rue) [semaphore's Hard]
+2024-06-14 02:43:11 [verbose]: Song select working beatmap updated to Felt - Protagonists (Rue) [semaphore's Hard]
+2024-06-14 02:43:11 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:43:12 [verbose]: Song select updating selection with beatmap:0486d192-3ee8-4ea5-a778-39ae927e8fbf ruleset:osu
+2024-06-14 02:43:12 [verbose]: Song select changing beatmap from "Felt - Protagonists (Rue) [semaphore's Hard]" to "Omoi - Teioh Education (Yooh) [Entry's Hard]"
+2024-06-14 02:43:12 [verbose]: Game-wide working beatmap updated to Omoi - Teioh Education (Yooh) [Entry's Hard]
+2024-06-14 02:43:12 [verbose]: Song select working beatmap updated to Omoi - Teioh Education (Yooh) [Entry's Hard]
+2024-06-14 02:43:12 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:43:13 [verbose]: Song select updating selection with beatmap:96011a0a-2cf5-4138-a6f7-b13bc9d03b97 ruleset:osu
+2024-06-14 02:43:13 [verbose]: Song select changing beatmap from "Omoi - Teioh Education (Yooh) [Entry's Hard]" to "Kensuke Ushio - Judgment (killaash) [Final Judgment]"
+2024-06-14 02:43:13 [verbose]: Game-wide working beatmap updated to Kensuke Ushio - Judgment (killaash) [Final Judgment]
+2024-06-14 02:43:13 [verbose]: Song select working beatmap updated to Kensuke Ushio - Judgment (killaash) [Final Judgment]
+2024-06-14 02:43:13 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:43:13 [verbose]: Song select updating selection with beatmap:01a0690e-e6c8-4756-9319-ad43fbdc6dd9 ruleset:osu
+2024-06-14 02:43:13 [verbose]: Song select changing beatmap from "Kensuke Ushio - Judgment (killaash) [Final Judgment]" to "UNDEAD CORPORATION - Murasa (MaridiuS) [Normal]"
+2024-06-14 02:43:13 [verbose]: Game-wide working beatmap updated to UNDEAD CORPORATION - Murasa (MaridiuS) [Normal]
+2024-06-14 02:43:13 [verbose]: Song select working beatmap updated to UNDEAD CORPORATION - Murasa (MaridiuS) [Normal]
+2024-06-14 02:43:13 [verbose]: Song select decided to ensurePlayingSelected
+2024-06-14 02:43:15 [verbose]: 📺 BackgroundScreenStack#445(depth:1) exit from BackgroundScreenBeatmap#580
+2024-06-14 02:43:15 [verbose]: 📺 BackgroundScreenStack#445(depth:1) resume to BackgroundScreenDefault#603
+2024-06-14 02:43:15 [verbose]: 📺 OsuScreenStack#457(depth:3) exit from PlaySongSelect#237
+2024-06-14 02:43:15 [verbose]: 📺 OsuScreenStack#457(depth:3) resume to MainMenu#381
+2024-06-14 02:43:15 [verbose]: decoupled ruleset transferred ("" -> "osu!")
+2024-06-14 02:43:15 [verbose]: 🌅 Global background change queued
+2024-06-14 02:43:15 [verbose]: 🌅 Global background change queued
+2024-06-14 02:43:15 [verbose]: ButtonSystem's state changed from EnteringMode to TopLevel
+2024-06-14 02:43:16 [verbose]: 🌅 Global background loading
+2024-06-14 02:43:16 [verbose]: ButtonSystem's state changed from TopLevel to Initial
+2024-06-14 02:43:18 [verbose]: ButtonSystem's state changed from Initial to Exit
+2024-06-14 02:43:18 [verbose]: 📺 OsuScreenStack#457(depth:2) exit from MainMenu#381
+2024-06-14 02:43:18 [verbose]: 📺 OsuScreenStack#457(depth:2) resume to IntroTriangles#494
+2024-06-14 02:43:21 [verbose]: 📺 BackgroundScreenStack#445(depth:0) exit from BackgroundScreenDefault#603
+2024-06-14 02:43:21 [verbose]: 📺 BackgroundScreenStack#445(depth:0) resume to [empty]
+2024-06-14 02:43:21 [verbose]: 📺 OsuScreenStack#457(depth:1) exit from IntroTriangles#494
+2024-06-14 02:43:21 [verbose]: 📺 OsuScreenStack#457(depth:1) resume to Loader#585
+2024-06-14 02:43:21 [verbose]: 📺 OsuScreenStack#457(depth:0) exit from Loader#585
+2024-06-14 02:43:21 [verbose]: 📺 OsuScreenStack#457(depth:0) resume to [empty]
+2024-06-14 02:43:21 [verbose]: Host execution state changed to Stopping
+2024-06-14 02:43:21 [verbose]: Host execution state changed to Stopped

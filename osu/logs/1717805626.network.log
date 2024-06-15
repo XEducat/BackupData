@@ -1,0 +1,50 @@
+----------------------------------------------------------
+network Log for Varof (LogLevel: Verbose)
+Running osu 2024.521.2.0 on .NET 8.0.5
+Environment: Windows (Microsoft Windows NT 10.0.22631.0), 8 cores 
+----------------------------------------------------------
+2024-06-08 00:13:46 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2024-06-08 00:13:48 [verbose]: Request to https://osu.ppy.sh/oauth/token successfully completed!
+2024-06-08 00:13:48 [verbose]: Performing request osu.Game.Online.API.Requests.GetMeRequest
+2024-06-08 00:13:48 [verbose]: Failing request osu.Game.Online.API.Requests.GetUpdatesRequest (System.Net.WebException: User not logged in)
+2024-06-08 00:13:48 [verbose]: Request to https://osu.ppy.sh/api/v2/me/ successfully completed!
+2024-06-08 00:13:49 [verbose]: GetMeRequest finished with response size of 8 365 bytes
+2024-06-08 00:13:49 [verbose]: Performing request osu.Game.Online.API.Requests.GetFriendsRequest
+2024-06-08 00:13:49 [verbose]: SpectatorClient connecting...
+2024-06-08 00:13:49 [verbose]: WebSocketNotificationsClientConnector connecting...
+2024-06-08 00:13:49 [verbose]: OnlineMultiplayerClient connecting...
+2024-06-08 00:13:49 [verbose]: OnlineMetadataClient connecting...
+2024-06-08 00:13:49 [verbose]: Performing request osu.Game.Online.API.Requests.GetNotificationsRequest
+2024-06-08 00:13:49 [verbose]: Performing request osu.Game.Online.API.Requests.GetSeasonalBackgroundsRequest
+2024-06-08 00:13:49 [verbose]: Request to https://osu.ppy.sh/api/v2/friends successfully completed!
+2024-06-08 00:13:49 [verbose]: GetFriendsRequest finished with response size of 14 005 bytes
+2024-06-08 00:13:49 [verbose]: Performing request osu.Game.Online.API.Requests.ChatAckRequest
+2024-06-08 00:13:49 [verbose]: Request to https://osu.ppy.sh/api/v2/notifications successfully completed!
+2024-06-08 00:13:49 [verbose]: GetNotificationsRequest finished with response size of 1 653 bytes
+2024-06-08 00:13:49 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/ack successfully completed!
+2024-06-08 00:13:49 [verbose]: ChatAckRequest finished with response size of 15 bytes
+2024-06-08 00:13:49 [verbose]: Performing request osu.Game.Online.API.Requests.GetUsersRequest
+2024-06-08 00:13:49 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2024-06-08 00:13:49 [verbose]: Request to https://osu.ppy.sh/api/v2/users/?ids[]=18829722 successfully completed!
+2024-06-08 00:13:49 [verbose]: GetUsersRequest finished with response size of 2 187 bytes
+2024-06-08 00:13:49 [verbose]: Request to https://osu.ppy.sh/api/v2/seasonal-backgrounds successfully completed!
+2024-06-08 00:13:49 [verbose]: GetSeasonalBackgroundsRequest finished with response size of 9 656 bytes
+2024-06-08 00:13:50 [verbose]: WebSocketNotificationsClientConnector connected!
+2024-06-08 00:13:50 [verbose]: Now listening to websocket chat messages.
+2024-06-08 00:13:50 [verbose]: Performing request osu.Game.Online.API.Requests.GetUpdatesRequest
+2024-06-08 00:13:50 [verbose]: OnlineMultiplayerClient connected!
+2024-06-08 00:13:50 [verbose]: OnlineMetadataClient connected!
+2024-06-08 00:13:50 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/updates successfully completed!
+2024-06-08 00:13:50 [verbose]: GetUpdatesRequest finished with response size of 2 932 bytes
+2024-06-08 00:13:50 [verbose]: Performing request osu.Game.Online.API.Requests.GetMessagesRequest
+2024-06-08 00:13:50 [verbose]: SpectatorClient connected!
+2024-06-08 00:13:50 [verbose]: Request to https://assets.ppy.sh/user-contest-entries/13236/54e52d017a9e3266f173c270fa18af9a47881b0e167f1a45923a95caa289640a_opt.jpg successfully completed!
+2024-06-08 00:13:50 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/channels/32227506/messages successfully completed!
+2024-06-08 00:13:50 [verbose]: GetMessagesRequest finished with response size of 5 657 bytes
+2024-06-08 00:13:50 [verbose]: Performing request osu.Game.Online.API.Requests.ListChannelsRequest
+2024-06-08 00:13:51 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/channels successfully completed!
+2024-06-08 00:13:51 [verbose]: ListChannelsRequest finished with response size of 7 528 bytes
+2024-06-08 00:13:52 [verbose]: Request to https://assets.ppy.sh/menu-content.json successfully completed!
+2024-06-08 00:13:52 [verbose]: Request to https://assets.ppy.sh/main-menu/kyoku-menu-banner@2x.png successfully completed!
+2024-06-08 00:14:02 [verbose]: Request to https://a.ppy.sh/18829722?1716761139.jpeg successfully completed!
+2024-06-08 00:14:43 [verbose]: Request to https://assets.ppy.sh/user-contest-entries/13266/82294fc0d2c4194f1c669761ee2aaac7325b4e8d4bbe2f767e27613a72a425f0_opt.jpg successfully completed!

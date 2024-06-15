@@ -1,0 +1,11 @@
+----------------------------------------------------------
+database Log for Varof (LogLevel: Verbose)
+Running osu 2024.521.2.0 on .NET 8.0.5
+Environment: Windows (Microsoft Windows NT 10.0.22631.0), 8 cores 
+----------------------------------------------------------
+2024-06-14 02:24:39 [verbose]: [?????] Beginning import from replay.osr...
+2024-06-14 02:24:39 [verbose]: [7c424] Import successfully completed!
+2024-06-14 02:30:25 [verbose]: [?????] Beginning import from replay.osr...
+2024-06-14 02:30:25 [verbose]: [d1367] Import successfully completed!
+2024-06-14 02:36:13 [verbose]: [?????] Beginning import from replay.osr...
+2024-06-14 02:36:13 [verbose]: [c6c92] Import successfully completed!
